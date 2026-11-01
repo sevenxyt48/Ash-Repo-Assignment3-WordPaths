@@ -160,6 +160,7 @@ function requestedWordId() {
 }
 
 // 随机探索优先选当前语言里能画出关系的词，避免打开后只剩一个孤立中心词。
+// 与 getConnections 一致：一段关系只有两端语言都被勾选时才可能被画出。
 function wordsWithDisplayableRelations(languages) {
   const active = languages.size ? languages : null;
   const byId = new Map(state.data.words.map((word) => [word.id, word]));
@@ -172,10 +173,10 @@ function wordsWithDisplayableRelations(languages) {
           (state.developmentGraph &&
            !["verified", "demo"].includes(connection.verificationStatus))) continue;
       const target = byId.get(connection.targetWordId);
-      if (!target || (active && !active.has(target.language))) continue;
-      if (!active || active.has(word.language)) related.add(word.id);
-      if (connection.directionality === "symmetric" &&
-          (!active || active.has(target.language))) related.add(target.id);
+      if (!target) continue;
+      if (active && (!active.has(word.language) || !active.has(target.language))) continue;
+      related.add(word.id);
+      if (connection.directionality === "symmetric") related.add(target.id);
     }
   }
   return related;
@@ -187,7 +188,9 @@ function randomWordPool(excludeId = null) {
   const languagePool = languages.size
     ? candidates.filter((word) => languages.has(word.language))
     : candidates;
-  const related = wordsWithDisplayableRelations(languages);
+  // 词库中的对等关系几乎都是跨语言的：只勾一种语言时画不出关系，
+  // 此时直接在该语言全部词条里随机，并用提示说明原因。
+  const related = languages.size > 1 ? wordsWithDisplayableRelations(languages) : new Set();
   const relatedPool = languagePool.filter((word) => related.has(word.id));
   if (relatedPool.length) return { pool: relatedPool, related: true };
   if (languagePool.length) return { pool: languagePool, related: false };
