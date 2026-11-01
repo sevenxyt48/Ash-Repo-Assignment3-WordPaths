@@ -186,6 +186,57 @@ function wordById(id) {
   return state.data?.words.find((word) => word.id === id) ?? null;
 }
 
+// 地址栏用 ?word= 标记当前中心词，刷新或分享时能回到同一个词条页面。
+function syncWordUrl(id) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("word", id);
+  try {
+    window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+  } catch (error) {
+    console.warn("Unable to update the word URL:", error);
+  }
+}
+
+function requestedWordId() {
+  const id = new URLSearchParams(window.location.search).get("word");
+  return id && wordById(id) ? id : null;
+}
+
+// 随机探索优先选当前语言里能画出关系的词，避免打开后只剩一个孤立中心词。
+function wordsWithDisplayableRelations(languages) {
+  const active = languages.size ? languages : null;
+  const byId = new Map(state.data.words.map((word) => [word.id, word]));
+  const related = new Set();
+  for (const word of state.data.words) {
+    for (const connection of word.connections) {
+      const type = connection.productRelationType;
+      if (!type || !state.activeTypes.has(type)) continue;
+      if ((!state.developmentGraph && connection.verificationStatus !== "verified") ||
+          (state.developmentGraph &&
+           !["verified", "demo"].includes(connection.verificationStatus))) continue;
+      const target = byId.get(connection.targetWordId);
+      if (!target || (active && !active.has(target.language))) continue;
+      if (!active || active.has(word.language)) related.add(word.id);
+      if (connection.directionality === "symmetric" &&
+          (!active || active.has(target.language))) related.add(target.id);
+    }
+  }
+  return related;
+}
+
+function randomWordPool(excludeId = null) {
+  const languages = selectedSearchLanguages();
+  const candidates = state.data.words.filter((word) => word.id !== excludeId);
+  const languagePool = languages.size
+    ? candidates.filter((word) => languages.has(word.language))
+    : candidates;
+  const related = wordsWithDisplayableRelations(languages);
+  const relatedPool = languagePool.filter((word) => related.has(word.id));
+  if (relatedPool.length) return { pool: relatedPool, related: true };
+  if (languagePool.length) return { pool: languagePool, related: false };
+  return { pool: candidates, related: false };
+}
+
 function resetSearchUi() {
   state.searchRequest += 1;
   state.query = "";
@@ -211,6 +262,7 @@ function selectWord(id, relation = null, replaceTrail = false) {
   state.peekId = null;
   state.languageHint = null;
   resetSearchUi();
+  syncWordUrl(id);
   render();
 }
 
@@ -255,6 +307,7 @@ function selectTrailStep(index) {
   state.peekId = null;
   state.languageHint = null;
   resetSearchUi();
+  syncWordUrl(step.id);
   render();
 }
 
@@ -345,12 +398,11 @@ function peekReading(word) {
   return word.romanization?.[word.language];
 }
 
+// 弹窗跳转到本站的词条页（以 ?word= 深链把该词设为中心词），来源另作外链。
 function entryUrlFor(word) {
-  if (word.source?.url) return word.source.url;
-  const encoded = encodeURIComponent(word.word);
-  if (word.language === "ko") return `https://ko.wiktionary.org/wiki/${encoded}`;
-  if (word.language === "ja") return `https://ja.wiktionary.org/wiki/${encoded}`;
-  return `https://zh.wiktionary.org/wiki/${encoded}`;
+  const url = new URL("index.html", window.location.href);
+  url.searchParams.set("word", word.id);
+  return url.href;
 }
 
 function renderPeek() {
@@ -391,10 +443,17 @@ function renderPeek() {
   const entry = document.createElement("a");
   entry.className = "graph-peek-link";
   entry.href = entryUrlFor(word);
-  entry.target = "_blank";
-  entry.rel = "noreferrer";
   entry.textContent = translate(state.language, "peek.openEntry");
   nodes.push(entry);
+  if (word.source?.url) {
+    const source = document.createElement("a");
+    source.className = "graph-peek-source";
+    source.href = word.source.url;
+    source.target = "_blank";
+    source.rel = "noreferrer";
+    source.textContent = translate(state.language, "peek.source");
+    nodes.push(source);
+  }
   graphPeek.replaceChildren(...nodes);
 }
 
@@ -747,12 +806,15 @@ async function initialize() {
       ? await addDemoRelationships(state.localData)
       : state.localData;
     updateDevelopmentNotice();
-    state.selectedId = state.developmentGraph
-      ? "water-zh"
-      : state.data.words[Math.floor(Math.random() * state.data.words.length)].id;
+    const requested = requestedWordId();
+    const pool = randomWordPool().pool;
+    const initial = requested ??
+      (state.developmentGraph ? "water-zh" : pool[Math.floor(Math.random() * pool.length)].id);
+    state.selectedId = initial;
     state.trail = [{ id: state.selectedId, relation: null }];
     state.expandedIds = new Set();
     state.peekId = null;
+    if (requested) syncWordUrl(requested);
     render();
   } catch (error) {
     console.error("Unable to load the word graph:", error);
@@ -854,11 +916,11 @@ for (const button of filters) {
 randomButton.addEventListener("click", () => {
   if (!state.data || randomButton.classList.contains("is-spinning")) return;
   randomButton.classList.add("is-spinning");
-  const choices = state.data.words.filter((word) => word.id !== state.selectedId);
-  const pool = choices.length ? choices : state.data.words;
+  const { pool, related } = randomWordPool(state.selectedId);
   window.setTimeout(() => {
     randomButton.classList.remove("is-spinning");
     selectWord(pool[Math.floor(Math.random() * pool.length)].id, null, true);
+    if (!related) showMessage("search.randomFallback", true);
   }, 420);
 });
 
