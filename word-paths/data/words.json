@@ -21,6 +21,36 @@
       "englishTranslation": "water",
       "pinyin": "shuǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词",
+          "量词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun",
+          "counter",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞",
+          "助数詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사",
+          "양수사",
+          "동사"
+        ]
+      },
       "meaning": "The clear liquid that falls as rain, fills rivers, and sustains life.",
       "source": null,
       "verificationStatus": "unverified",
@@ -179,6 +209,12 @@
       "englishTranslation": "river",
       "pinyin": "hé",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "A natural stream of water that flows across land.",
       "source": null,
       "verificationStatus": "unverified",
@@ -361,6 +397,12 @@
       "englishTranslation": "liquid",
       "pinyin": "yè tǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "A substance that flows and takes the shape of its container.",
       "source": null,
       "verificationStatus": "unverified",
@@ -534,6 +576,24 @@
       "englishTranslation": "rain",
       "pinyin": "yǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "Drops of water that fall from clouds.",
       "source": null,
       "verificationStatus": "unverified",
@@ -707,6 +767,24 @@
       "englishTranslation": "hope",
       "pinyin": "xī wàng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "A feeling of wanting something to happen and believing it may.",
       "source": null,
       "verificationStatus": "unverified",
@@ -877,6 +955,12 @@
       "englishTranslation": "longing",
       "pinyin": "pàn wàng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "A strong feeling of wanting or eagerly expecting something.",
       "source": null,
       "verificationStatus": "unverified",
@@ -970,6 +1054,12 @@
       "englishTranslation": "daytime",
       "pinyin": "bái tiān",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The lighter part of each 24-hour cycle, between sunrise and sunset.",
       "source": null,
       "verificationStatus": "unverified",
@@ -1243,6 +1333,28 @@
       "englishTranslation": "night",
       "pinyin": "yè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "量词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "counter"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "助数詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "양수사"
+        ]
+      },
       "meaning": "The dark part of each 24-hour cycle, from sunset to sunrise.",
       "source": null,
       "verificationStatus": "unverified",
@@ -1432,6 +1544,12 @@
       "englishTranslation": "soil",
       "pinyin": "tǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The upper layer of earth where plants grow.",
       "source": null,
       "verificationStatus": "unverified",
@@ -1605,6 +1723,28 @@
       "englishTranslation": "scholar",
       "pinyin": "shì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "verb",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "動詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "동사",
+          "고유명사"
+        ]
+      },
       "meaning": "A learned person; in Chinese, 士 can also refer to a person of a particular rank or role.",
       "source": null,
       "verificationStatus": "unverified",
@@ -1685,6 +1825,32 @@
       },
       "englishTranslation": "fire",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "动词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "verb",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "動詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "동사",
+          "고유명사"
+        ]
+      },
       "meaning": "The common ZH word for fire.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -1876,6 +2042,12 @@
       },
       "englishTranslation": "wind",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for wind.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -2076,6 +2248,24 @@
       },
       "englishTranslation": "snow",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "The common ZH word for snow.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -2255,6 +2445,24 @@
       },
       "englishTranslation": "mountain",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "The common ZH word for mountain.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -2454,6 +2662,32 @@
       },
       "englishTranslation": "sea",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "副词",
+          "形容词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "adverb",
+          "adjective",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "副詞",
+          "形容詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "부사",
+          "형용사",
+          "고유명사"
+        ]
+      },
       "meaning": "The common ZH word for sea.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -2633,6 +2867,12 @@
       },
       "englishTranslation": "sun",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for sun.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -2812,6 +3052,12 @@
       },
       "englishTranslation": "moon",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for moon.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -3015,6 +3261,24 @@
       },
       "englishTranslation": "sky",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "The common ZH word for sky.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -3210,6 +3474,24 @@
       },
       "englishTranslation": "morning",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "感叹词"
+        ],
+        "en": [
+          "noun",
+          "interjection"
+        ],
+        "ja": [
+          "名詞",
+          "間投詞"
+        ],
+        "ko": [
+          "명사",
+          "감탄사"
+        ]
+      },
       "meaning": "The common ZH word for morning.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -3405,6 +3687,12 @@
       },
       "englishTranslation": "today",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for today.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -3593,6 +3881,12 @@
       },
       "englishTranslation": "tomorrow",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for tomorrow.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -3796,6 +4090,12 @@
       },
       "englishTranslation": "yesterday",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for yesterday.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -3999,6 +4299,12 @@
       },
       "englishTranslation": "spring",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for spring.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -4190,6 +4496,12 @@
       },
       "englishTranslation": "summer",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for summer.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -4381,6 +4693,12 @@
       },
       "englishTranslation": "autumn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for autumn.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -4572,6 +4890,12 @@
       },
       "englishTranslation": "winter",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for winter.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -4763,6 +5087,32 @@
       },
       "englishTranslation": "person",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词",
+          "代词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun",
+          "pronoun"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞",
+          "代名詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사",
+          "대명사"
+        ]
+      },
       "meaning": "The common ZH word for person.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -4958,6 +5308,12 @@
       },
       "englishTranslation": "friend",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for friend.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -5137,6 +5493,12 @@
       },
       "englishTranslation": "father",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for father.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -5316,6 +5678,12 @@
       },
       "englishTranslation": "mother",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for mother.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -5495,6 +5863,12 @@
       },
       "englishTranslation": "home",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for home.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -5710,6 +6084,12 @@
       },
       "englishTranslation": "school",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for school.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -5874,6 +6254,12 @@
       },
       "englishTranslation": "room",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "The common ZH word for room.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -6065,6 +6451,28 @@
       },
       "englishTranslation": "book",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "verb",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "動詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "동사",
+          "고유명사"
+        ]
+      },
       "meaning": "The common ZH word for book.",
       "source": {
         "label": "ZH Wiktionary entry",
@@ -6262,6 +6670,12 @@
       "englishTranslation": "time",
       "pinyin": "shíjiān",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "time",
       "source": null,
       "verificationStatus": "unverified",
@@ -6443,6 +6857,32 @@
       "englishTranslation": "year",
       "pinyin": "nián",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词",
+          "量词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun",
+          "counter"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞",
+          "助数詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사",
+          "양수사"
+        ]
+      },
       "meaning": "year",
       "source": null,
       "verificationStatus": "unverified",
@@ -6624,6 +7064,24 @@
       "englishTranslation": "month",
       "pinyin": "yuè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "后缀"
+        ],
+        "en": [
+          "noun",
+          "suffix"
+        ],
+        "ja": [
+          "名詞",
+          "接尾辞"
+        ],
+        "ko": [
+          "명사",
+          "접미사"
+        ]
+      },
       "meaning": "month",
       "source": null,
       "verificationStatus": "unverified",
@@ -6817,6 +7275,24 @@
       "englishTranslation": "week",
       "pinyin": "zhōu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "后缀"
+        ],
+        "en": [
+          "noun",
+          "suffix"
+        ],
+        "ja": [
+          "名詞",
+          "接尾辞"
+        ],
+        "ko": [
+          "명사",
+          "접미사"
+        ]
+      },
       "meaning": "week",
       "source": null,
       "verificationStatus": "unverified",
@@ -7014,6 +7490,24 @@
       "englishTranslation": "weekend",
       "pinyin": "zhōumò",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "副词"
+        ],
+        "en": [
+          "noun",
+          "adverb"
+        ],
+        "ja": [
+          "名詞",
+          "副詞"
+        ],
+        "ko": [
+          "명사",
+          "부사"
+        ]
+      },
       "meaning": "weekend",
       "source": null,
       "verificationStatus": "unverified",
@@ -7195,6 +7689,24 @@
       "englishTranslation": "weekday",
       "pinyin": "píngrì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "副词"
+        ],
+        "en": [
+          "noun",
+          "adverb"
+        ],
+        "ja": [
+          "名詞",
+          "副詞"
+        ],
+        "ko": [
+          "명사",
+          "부사"
+        ]
+      },
       "meaning": "weekday",
       "source": null,
       "verificationStatus": "unverified",
@@ -7376,6 +7888,12 @@
       "englishTranslation": "forenoon (a.m.)",
       "pinyin": "wǔqián",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "forenoon (a.m.)",
       "source": null,
       "verificationStatus": "unverified",
@@ -7557,6 +8075,12 @@
       "englishTranslation": "afternoon (p.m.)",
       "pinyin": "wǔhòu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "afternoon (p.m.)",
       "source": null,
       "verificationStatus": "unverified",
@@ -7738,6 +8262,12 @@
       "englishTranslation": "schedule",
       "pinyin": "rìchéng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "schedule",
       "source": null,
       "verificationStatus": "unverified",
@@ -7907,6 +8437,24 @@
       "englishTranslation": "plan",
       "pinyin": "jìhuà",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "plan",
       "source": null,
       "verificationStatus": "unverified",
@@ -8088,6 +8636,24 @@
       "englishTranslation": "promise / appointment",
       "pinyin": "yuēshù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "promise / appointment",
       "source": null,
       "verificationStatus": "unverified",
@@ -8269,6 +8835,24 @@
       "englishTranslation": "future",
       "pinyin": "wèilái",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "future",
       "source": null,
       "verificationStatus": "unverified",
@@ -8438,6 +9022,24 @@
       "englishTranslation": "past",
       "pinyin": "guòqù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "past",
       "source": null,
       "verificationStatus": "unverified",
@@ -8623,6 +9225,24 @@
       "englishTranslation": "present (time)",
       "pinyin": "xiànzài",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "present (time)",
       "source": null,
       "verificationStatus": "unverified",
@@ -8828,6 +9448,24 @@
       "englishTranslation": "beginning",
       "pinyin": "kāishǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "beginning",
       "source": null,
       "verificationStatus": "unverified",
@@ -9009,6 +9647,12 @@
       "englishTranslation": "holiday / day off",
       "pinyin": "xiūrì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "holiday / day off",
       "source": null,
       "verificationStatus": "unverified",
@@ -9178,6 +9822,12 @@
       "englishTranslation": "vacation",
       "pinyin": "xiūjià",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "vacation",
       "source": null,
       "verificationStatus": "unverified",
@@ -9347,6 +9997,24 @@
       "englishTranslation": "birthday",
       "pinyin": "shēngrì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "birthday",
       "source": null,
       "verificationStatus": "unverified",
@@ -9516,6 +10184,12 @@
       "englishTranslation": "season",
       "pinyin": "jìjié",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "season",
       "source": null,
       "verificationStatus": "unverified",
@@ -9697,6 +10371,12 @@
       "englishTranslation": "climate",
       "pinyin": "qìhòu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "climate",
       "source": null,
       "verificationStatus": "unverified",
@@ -9866,6 +10546,12 @@
       "englishTranslation": "temperature",
       "pinyin": "wēndù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "temperature",
       "source": null,
       "verificationStatus": "unverified",
@@ -10035,6 +10721,12 @@
       "englishTranslation": "history",
       "pinyin": "lìshǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "history",
       "source": null,
       "verificationStatus": "unverified",
@@ -10204,6 +10896,24 @@
       "englishTranslation": "world",
       "pinyin": "shìjiè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "副词"
+        ],
+        "en": [
+          "noun",
+          "adverb"
+        ],
+        "ja": [
+          "名詞",
+          "副詞"
+        ],
+        "ko": [
+          "명사",
+          "부사"
+        ]
+      },
       "meaning": "world",
       "source": null,
       "verificationStatus": "unverified",
@@ -10385,6 +11095,12 @@
       "englishTranslation": "universe",
       "pinyin": "yǔzhòu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "universe",
       "source": null,
       "verificationStatus": "unverified",
@@ -10554,6 +11270,12 @@
       "englishTranslation": "earth (planet)",
       "pinyin": "Dìqiú",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "专有名词",
+        "en": "proper noun",
+        "ja": "固有名詞",
+        "ko": "고유명사"
+      },
       "meaning": "earth (planet)",
       "source": null,
       "verificationStatus": "unverified",
@@ -10723,6 +11445,12 @@
       "englishTranslation": "planet",
       "pinyin": "huòxīng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "planet",
       "source": null,
       "verificationStatus": "unverified",
@@ -10892,6 +11620,12 @@
       "englishTranslation": "family",
       "pinyin": "jiāzú",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "family",
       "source": null,
       "verificationStatus": "unverified",
@@ -11061,6 +11795,12 @@
       "englishTranslation": "parents",
       "pinyin": "fùmǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "parents",
       "source": null,
       "verificationStatus": "unverified",
@@ -11230,6 +11970,12 @@
       "englishTranslation": "student",
       "pinyin": "xuéshēng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "student",
       "source": null,
       "verificationStatus": "unverified",
@@ -11399,6 +12145,12 @@
       "englishTranslation": "teacher / sir",
       "pinyin": "xiānshēng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "teacher / sir",
       "source": null,
       "verificationStatus": "unverified",
@@ -11580,6 +12332,12 @@
       "englishTranslation": "nurse",
       "pinyin": "hùshì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "nurse",
       "source": null,
       "verificationStatus": "unverified",
@@ -11749,6 +12507,12 @@
       "englishTranslation": "colleague",
       "pinyin": "tóngliáo",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "colleague",
       "source": null,
       "verificationStatus": "unverified",
@@ -11918,6 +12682,12 @@
       "englishTranslation": "boss / superior",
       "pinyin": "shàngsī",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "boss / superior",
       "source": null,
       "verificationStatus": "unverified",
@@ -12087,6 +12857,12 @@
       "englishTranslation": "staff / employee",
       "pinyin": "zhíyuán",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "staff / employee",
       "source": null,
       "verificationStatus": "unverified",
@@ -12256,6 +13032,24 @@
       "englishTranslation": "customer",
       "pinyin": "gùkè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "customer",
       "source": null,
       "verificationStatus": "unverified",
@@ -12437,6 +13231,12 @@
       "englishTranslation": "population",
       "pinyin": "rénkǒu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "population",
       "source": null,
       "verificationStatus": "unverified",
@@ -12606,6 +13406,12 @@
       "englishTranslation": "citizen",
       "pinyin": "shìmín",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "citizen",
       "source": null,
       "verificationStatus": "unverified",
@@ -12775,6 +13581,24 @@
       "englishTranslation": "society",
       "pinyin": "shèhuì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "society",
       "source": null,
       "verificationStatus": "unverified",
@@ -12944,6 +13768,12 @@
       "englishTranslation": "nation / country",
       "pinyin": "guójiā",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "nation / country",
       "source": null,
       "verificationStatus": "unverified",
@@ -13113,6 +13943,12 @@
       "englishTranslation": "city",
       "pinyin": "dūshì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "city",
       "source": null,
       "verificationStatus": "unverified",
@@ -13294,6 +14130,12 @@
       "englishTranslation": "capital city",
       "pinyin": "shǒudū",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "capital city",
       "source": null,
       "verificationStatus": "unverified",
@@ -13463,6 +14305,24 @@
       "englishTranslation": "government",
       "pinyin": "zhèngfǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "government",
       "source": null,
       "verificationStatus": "unverified",
@@ -13632,6 +14492,24 @@
       "englishTranslation": "politics",
       "pinyin": "zhèngzhì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "politics",
       "source": null,
       "verificationStatus": "unverified",
@@ -13801,6 +14679,12 @@
       "englishTranslation": "election",
       "pinyin": "xuǎnjǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "election",
       "source": null,
       "verificationStatus": "unverified",
@@ -13982,6 +14866,12 @@
       "englishTranslation": "law",
       "pinyin": "fǎlǜ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "law",
       "source": null,
       "verificationStatus": "unverified",
@@ -14151,6 +15041,24 @@
       "englishTranslation": "rule",
       "pinyin": "guīzé",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "rule",
       "source": null,
       "verificationStatus": "unverified",
@@ -14320,6 +15228,12 @@
       "englishTranslation": "policy",
       "pinyin": "zhèngcè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "policy",
       "source": null,
       "verificationStatus": "unverified",
@@ -14489,6 +15403,28 @@
       "englishTranslation": "economy",
       "pinyin": "jīngjì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "動詞",
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "동사",
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "economy",
       "source": null,
       "verificationStatus": "unverified",
@@ -14658,6 +15594,12 @@
       "englishTranslation": "cash",
       "pinyin": "xiànjīn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "cash",
       "source": null,
       "verificationStatus": "unverified",
@@ -14839,6 +15781,12 @@
       "englishTranslation": "price",
       "pinyin": "jiàgé",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "price",
       "source": null,
       "verificationStatus": "unverified",
@@ -15008,6 +15956,12 @@
       "englishTranslation": "cost",
       "pinyin": "fèiyòng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "cost",
       "source": null,
       "verificationStatus": "unverified",
@@ -15177,6 +16131,12 @@
       "englishTranslation": "salary",
       "pinyin": "gōngzī",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "salary",
       "source": null,
       "verificationStatus": "unverified",
@@ -15358,6 +16318,12 @@
       "englishTranslation": "bank",
       "pinyin": "yínháng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "bank",
       "source": null,
       "verificationStatus": "unverified",
@@ -15527,6 +16493,12 @@
       "englishTranslation": "company",
       "pinyin": "huìshè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "company",
       "source": null,
       "verificationStatus": "unverified",
@@ -15696,6 +16668,12 @@
       "englishTranslation": "product",
       "pinyin": "shāngpǐn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "product",
       "source": null,
       "verificationStatus": "unverified",
@@ -15865,6 +16843,12 @@
       "englishTranslation": "trade",
       "pinyin": "màoyì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "trade",
       "source": null,
       "verificationStatus": "unverified",
@@ -16046,6 +17030,24 @@
       "englishTranslation": "export",
       "pinyin": "shūchū",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "export",
       "source": null,
       "verificationStatus": "unverified",
@@ -16231,6 +17233,24 @@
       "englishTranslation": "end / termination",
       "pinyin": "zhōngliǎo",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "end / termination",
       "source": null,
       "verificationStatus": "unverified",
@@ -16412,6 +17432,24 @@
       "englishTranslation": "reservation",
       "pinyin": "yùyuē",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "reservation",
       "source": null,
       "verificationStatus": "unverified",
@@ -16593,6 +17631,12 @@
       "englishTranslation": "air temperature",
       "pinyin": "qìwēn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "air temperature",
       "source": null,
       "verificationStatus": "unverified",
@@ -16762,6 +17806,12 @@
       "englishTranslation": "doctor",
       "pinyin": "yīshī",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "doctor",
       "source": null,
       "verificationStatus": "unverified",
@@ -16931,6 +17981,12 @@
       "englishTranslation": "tax",
       "pinyin": "shuìjīn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "tax",
       "source": null,
       "verificationStatus": "unverified",
@@ -17100,6 +18156,12 @@
       "englishTranslation": "factory",
       "pinyin": "gōngchǎng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "factory",
       "source": null,
       "verificationStatus": "unverified",
@@ -17269,6 +18331,12 @@
       "englishTranslation": "office",
       "pinyin": "bàngōngshì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "office",
       "source": null,
       "verificationStatus": "unverified",
@@ -17438,6 +18506,24 @@
       "englishTranslation": "import",
       "pinyin": "shūrù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "import",
       "source": null,
       "verificationStatus": "unverified",
@@ -17633,6 +18719,12 @@
       "englishTranslation": "market",
       "pinyin": "shìchǎng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "market",
       "source": null,
       "verificationStatus": "unverified",
@@ -17812,6 +18904,24 @@
       "englishTranslation": "food",
       "pinyin": "yǐnshí",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "food",
       "source": null,
       "verificationStatus": "unverified",
@@ -18003,6 +19113,12 @@
       "englishTranslation": "restaurant / canteen",
       "pinyin": "shítáng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "restaurant / canteen",
       "source": null,
       "verificationStatus": "unverified",
@@ -18182,6 +19298,24 @@
       "englishTranslation": "vegetable",
       "pinyin": "yěcài",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "vegetable",
       "source": null,
       "verificationStatus": "unverified",
@@ -18361,6 +19495,12 @@
       "englishTranslation": "drink / beverage",
       "pinyin": "yǐnliào",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "drink / beverage",
       "source": null,
       "verificationStatus": "unverified",
@@ -18540,6 +19680,24 @@
       "englishTranslation": "tea",
       "pinyin": "chá",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "tea",
       "source": null,
       "verificationStatus": "unverified",
@@ -18743,6 +19901,12 @@
       "englishTranslation": "hospital",
       "pinyin": "bìngyuàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "hospital",
       "source": null,
       "verificationStatus": "unverified",
@@ -18922,6 +20086,24 @@
       "englishTranslation": "health",
       "pinyin": "jiànkāng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "health",
       "source": null,
       "verificationStatus": "unverified",
@@ -19113,6 +20295,28 @@
       "englishTranslation": "exercise / sport",
       "pinyin": "yùndòng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "動詞",
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "동사",
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "exercise / sport",
       "source": null,
       "verificationStatus": "unverified",
@@ -19304,6 +20508,24 @@
       "englishTranslation": "mind / spirit",
       "pinyin": "jīngshén",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "mind / spirit",
       "source": null,
       "verificationStatus": "unverified",
@@ -19483,6 +20705,12 @@
       "englishTranslation": "heart (organ)",
       "pinyin": "xīnzàng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "heart (organ)",
       "source": null,
       "verificationStatus": "unverified",
@@ -19662,6 +20890,24 @@
       "englishTranslation": "emotion / feeling",
       "pinyin": "gǎnqíng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "emotion / feeling",
       "source": null,
       "verificationStatus": "unverified",
@@ -19853,6 +21099,12 @@
       "englishTranslation": "thinking / thought",
       "pinyin": "sīkǎo",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "thinking / thought",
       "source": null,
       "verificationStatus": "unverified",
@@ -20048,6 +21300,24 @@
       "englishTranslation": "memory",
       "pinyin": "jìyì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "memory",
       "source": null,
       "verificationStatus": "unverified",
@@ -20239,6 +21509,24 @@
       "englishTranslation": "knowledge",
       "pinyin": "zhīshi",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "knowledge",
       "source": null,
       "verificationStatus": "unverified",
@@ -20418,6 +21706,28 @@
       "englishTranslation": "experience",
       "pinyin": "jīngyàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "verb",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "動詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "동사",
+          "형용사"
+        ]
+      },
       "meaning": "experience",
       "source": null,
       "verificationStatus": "unverified",
@@ -20609,6 +21919,12 @@
       "englishTranslation": "ability",
       "pinyin": "nénglì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "ability",
       "source": null,
       "verificationStatus": "unverified",
@@ -20788,6 +22104,12 @@
       "englishTranslation": "talent",
       "pinyin": "cáinéng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "talent",
       "source": null,
       "verificationStatus": "unverified",
@@ -20967,6 +22289,32 @@
       "englishTranslation": "effort",
       "pinyin": "nǔlì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "形容词",
+          "副词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "adjective",
+          "adverb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "形容詞",
+          "副詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "형용사",
+          "부사",
+          "명사"
+        ]
+      },
       "meaning": "effort",
       "source": null,
       "verificationStatus": "unverified",
@@ -21158,6 +22506,32 @@
       "englishTranslation": "success",
       "pinyin": "chénggōng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词",
+          "形容词",
+          "专有名词"
+        ],
+        "en": [
+          "verb",
+          "noun",
+          "adjective",
+          "proper noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞",
+          "形容詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사",
+          "형용사",
+          "고유명사"
+        ]
+      },
       "meaning": "success",
       "source": null,
       "verificationStatus": "unverified",
@@ -21349,6 +22723,28 @@
       "englishTranslation": "failure",
       "pinyin": "shībài",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "verb",
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "動詞",
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "동사",
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "failure",
       "source": null,
       "verificationStatus": "unverified",
@@ -21540,6 +22936,32 @@
       "englishTranslation": "victory",
       "pinyin": "shènglì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "副词",
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "verb",
+          "adverb",
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "動詞",
+          "副詞",
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "동사",
+          "부사",
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "victory",
       "source": null,
       "verificationStatus": "unverified",
@@ -21731,6 +23153,12 @@
       "englishTranslation": "defeat",
       "pinyin": "bàiběi",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "defeat",
       "source": null,
       "verificationStatus": "unverified",
@@ -21922,6 +23350,24 @@
       "englishTranslation": "learning",
       "pinyin": "xuéxí",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "learning",
       "source": null,
       "verificationStatus": "unverified",
@@ -22113,6 +23559,24 @@
       "englishTranslation": "education",
       "pinyin": "jiàoyù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "education",
       "source": null,
       "verificationStatus": "unverified",
@@ -22304,6 +23768,24 @@
       "englishTranslation": "professor",
       "pinyin": "jiàoshòu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "professor",
       "source": null,
       "verificationStatus": "unverified",
@@ -22495,6 +23977,24 @@
       "englishTranslation": "exam",
       "pinyin": "kǎoshì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "exam",
       "source": null,
       "verificationStatus": "unverified",
@@ -22686,6 +24186,24 @@
       "englishTranslation": "homework",
       "pinyin": "sùtí",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "homework",
       "source": null,
       "verificationStatus": "unverified",
@@ -22865,6 +24383,12 @@
       "englishTranslation": "lesson / class",
       "pinyin": "kèchéng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "lesson / class",
       "source": null,
       "verificationStatus": "unverified",
@@ -23056,6 +24580,12 @@
       "englishTranslation": "school subject",
       "pinyin": "kēmù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "school subject",
       "source": null,
       "verificationStatus": "unverified",
@@ -23235,6 +24765,12 @@
       "englishTranslation": "grade / score",
       "pinyin": "chéngjì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "grade / score",
       "source": null,
       "verificationStatus": "unverified",
@@ -23426,6 +24962,12 @@
       "englishTranslation": "library",
       "pinyin": "túshūguǎn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "library",
       "source": null,
       "verificationStatus": "unverified",
@@ -23605,6 +25147,12 @@
       "englishTranslation": "museum",
       "pinyin": "bówùguǎn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "museum",
       "source": null,
       "verificationStatus": "unverified",
@@ -23784,6 +25332,12 @@
       "englishTranslation": "art",
       "pinyin": "yìshù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "art",
       "source": null,
       "verificationStatus": "unverified",
@@ -23963,6 +25517,12 @@
       "englishTranslation": "music",
       "pinyin": "yīnyuè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "music",
       "source": null,
       "verificationStatus": "unverified",
@@ -24142,6 +25702,12 @@
       "englishTranslation": "movie / film",
       "pinyin": "diànyǐng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "movie / film",
       "source": null,
       "verificationStatus": "unverified",
@@ -24321,6 +25887,12 @@
       "englishTranslation": "photo",
       "pinyin": "zhàopiàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "photo",
       "source": null,
       "verificationStatus": "unverified",
@@ -24500,6 +26072,24 @@
       "englishTranslation": "news / message",
       "pinyin": "xiāoxi",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "news / message",
       "source": null,
       "verificationStatus": "unverified",
@@ -24679,6 +26269,12 @@
       "englishTranslation": "newspaper",
       "pinyin": "xīnwén",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "newspaper",
       "source": null,
       "verificationStatus": "unverified",
@@ -24858,6 +26454,12 @@
       "englishTranslation": "magazine",
       "pinyin": "zázhì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "magazine",
       "source": null,
       "verificationStatus": "unverified",
@@ -25037,6 +26639,12 @@
       "englishTranslation": "telephone",
       "pinyin": "diànhuà",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "telephone",
       "source": null,
       "verificationStatus": "unverified",
@@ -25228,6 +26836,12 @@
       "englishTranslation": "reading (books)",
       "pinyin": "dúshū",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "reading (books)",
       "source": null,
       "verificationStatus": "unverified",
@@ -25419,6 +27033,24 @@
       "englishTranslation": "composition / writing",
       "pinyin": "zuòwén",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "composition / writing",
       "source": null,
       "verificationStatus": "unverified",
@@ -25610,6 +27242,24 @@
       "englishTranslation": "language",
       "pinyin": "yányǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "language",
       "source": null,
       "verificationStatus": "unverified",
@@ -25789,6 +27439,12 @@
       "englishTranslation": "grammar",
       "pinyin": "wénfǎ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "grammar",
       "source": null,
       "verificationStatus": "unverified",
@@ -25968,6 +27624,24 @@
       "englishTranslation": "translation",
       "pinyin": "fānyì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "translation",
       "source": null,
       "verificationStatus": "unverified",
@@ -26159,6 +27833,12 @@
       "englishTranslation": "meaning",
       "pinyin": "yìwèi",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "meaning",
       "source": null,
       "verificationStatus": "unverified",
@@ -26350,6 +28030,12 @@
       "englishTranslation": "concept",
       "pinyin": "gàiniàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "concept",
       "source": null,
       "verificationStatus": "unverified",
@@ -26529,6 +28215,24 @@
       "englishTranslation": "logic",
       "pinyin": "lùnlǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "logic",
       "source": null,
       "verificationStatus": "unverified",
@@ -26708,6 +28412,24 @@
       "englishTranslation": "fact",
       "pinyin": "shìshí",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "fact",
       "source": null,
       "verificationStatus": "unverified",
@@ -26911,6 +28633,12 @@
       "englishTranslation": "opinion",
       "pinyin": "yìjiàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "opinion",
       "source": null,
       "verificationStatus": "unverified",
@@ -27102,6 +28830,24 @@
       "englishTranslation": "question",
       "pinyin": "tíwèn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "question",
       "source": null,
       "verificationStatus": "unverified",
@@ -27297,6 +29043,24 @@
       "englishTranslation": "reply / answer",
       "pinyin": "huídá",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "reply / answer",
       "source": null,
       "verificationStatus": "unverified",
@@ -27488,6 +29252,12 @@
       "englishTranslation": "reason",
       "pinyin": "lǐyóu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "reason",
       "source": null,
       "verificationStatus": "unverified",
@@ -27667,6 +29437,12 @@
       "englishTranslation": "purpose",
       "pinyin": "mùdì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "purpose",
       "source": null,
       "verificationStatus": "unverified",
@@ -27846,6 +29622,12 @@
       "englishTranslation": "pharmacy",
       "pinyin": "yàojú",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "pharmacy",
       "source": null,
       "verificationStatus": "unverified",
@@ -28025,6 +29807,24 @@
       "englishTranslation": "body",
       "pinyin": "shēntǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "body",
       "source": null,
       "verificationStatus": "unverified",
@@ -28204,6 +30004,24 @@
       "englishTranslation": "competition",
       "pinyin": "jìngzhēng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "competition",
       "source": null,
       "verificationStatus": "unverified",
@@ -28395,6 +30213,12 @@
       "englishTranslation": "university",
       "pinyin": "dàxué",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "university",
       "source": null,
       "verificationStatus": "unverified",
@@ -28574,6 +30398,12 @@
       "englishTranslation": "word",
       "pinyin": "dānyǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "word",
       "source": null,
       "verificationStatus": "unverified",
@@ -28753,6 +30583,28 @@
       "englishTranslation": "truth",
       "pinyin": "zhēnshí",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "副词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "adverb"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "副詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "부사"
+        ]
+      },
       "meaning": "truth",
       "source": null,
       "verificationStatus": "unverified",
@@ -28948,6 +30800,24 @@
       "englishTranslation": "condition",
       "pinyin": "tiáojiàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "condition",
       "source": null,
       "verificationStatus": "unverified",
@@ -29127,6 +30997,12 @@
       "englishTranslation": "medicine",
       "pinyin": "yào",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "medicine",
       "source": null,
       "verificationStatus": "unverified",
@@ -29318,6 +31194,12 @@
       "englishTranslation": "scholarship",
       "pinyin": "jiǎngxuéjīn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "scholarship",
       "source": null,
       "verificationStatus": "unverified",
@@ -29497,6 +31379,12 @@
       "englishTranslation": "situation",
       "pinyin": "qíngkuàng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "situation",
       "source": null,
       "verificationStatus": "unverified",
@@ -29666,6 +31554,12 @@
       "englishTranslation": "opportunity",
       "pinyin": "jīhuì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "opportunity",
       "source": null,
       "verificationStatus": "unverified",
@@ -29835,6 +31729,24 @@
       "englishTranslation": "danger",
       "pinyin": "wéixiǎn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "danger",
       "source": null,
       "verificationStatus": "unverified",
@@ -30016,6 +31928,32 @@
       "englishTranslation": "safety",
       "pinyin": "ānquán",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词",
+          "动词",
+          "专有名词"
+        ],
+        "en": [
+          "adjective",
+          "noun",
+          "verb",
+          "proper noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞",
+          "動詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사",
+          "동사",
+          "고유명사"
+        ]
+      },
       "meaning": "safety",
       "source": null,
       "verificationStatus": "unverified",
@@ -30197,6 +32135,28 @@
       "englishTranslation": "peace",
       "pinyin": "hépíng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사"
+        ]
+      },
       "meaning": "peace",
       "source": null,
       "verificationStatus": "unverified",
@@ -30378,6 +32338,12 @@
       "englishTranslation": "war",
       "pinyin": "zhànzhēng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "war",
       "source": null,
       "verificationStatus": "unverified",
@@ -30559,6 +32525,24 @@
       "englishTranslation": "freedom",
       "pinyin": "zìyóu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "freedom",
       "source": null,
       "verificationStatus": "unverified",
@@ -30740,6 +32724,24 @@
       "englishTranslation": "equality",
       "pinyin": "píngděng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "equality",
       "source": null,
       "verificationStatus": "unverified",
@@ -30921,6 +32923,12 @@
       "englishTranslation": "human rights",
       "pinyin": "rénquán",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "human rights",
       "source": null,
       "verificationStatus": "unverified",
@@ -31090,6 +33098,24 @@
       "englishTranslation": "culture",
       "pinyin": "wénhuà",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "culture",
       "source": null,
       "verificationStatus": "unverified",
@@ -31259,6 +33285,24 @@
       "englishTranslation": "tradition",
       "pinyin": "chuántǒng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "tradition",
       "source": null,
       "verificationStatus": "unverified",
@@ -31428,6 +33472,12 @@
       "englishTranslation": "religion",
       "pinyin": "zōngjiào",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "religion",
       "source": null,
       "verificationStatus": "unverified",
@@ -31597,6 +33647,24 @@
       "englishTranslation": "philosophy",
       "pinyin": "zhéxué",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "philosophy",
       "source": null,
       "verificationStatus": "unverified",
@@ -31766,6 +33834,24 @@
       "englishTranslation": "science",
       "pinyin": "kēxué",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "science",
       "source": null,
       "verificationStatus": "unverified",
@@ -31947,6 +34033,12 @@
       "englishTranslation": "technology",
       "pinyin": "jìshù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "technology",
       "source": null,
       "verificationStatus": "unverified",
@@ -32116,6 +34208,12 @@
       "englishTranslation": "engineering",
       "pinyin": "gōngxué",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "engineering",
       "source": null,
       "verificationStatus": "unverified",
@@ -32285,6 +34383,12 @@
       "englishTranslation": "mathematics",
       "pinyin": "shùxué",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "mathematics",
       "source": null,
       "verificationStatus": "unverified",
@@ -32454,6 +34558,24 @@
       "englishTranslation": "geography",
       "pinyin": "dìlǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "geography",
       "source": null,
       "verificationStatus": "unverified",
@@ -32623,6 +34745,24 @@
       "englishTranslation": "literature",
       "pinyin": "wénxué",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "literature",
       "source": null,
       "verificationStatus": "unverified",
@@ -32792,6 +34932,24 @@
       "englishTranslation": "poem",
       "pinyin": "shī",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "poem",
       "source": null,
       "verificationStatus": "unverified",
@@ -32973,6 +35131,12 @@
       "englishTranslation": "novel",
       "pinyin": "xiǎoshuō",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "novel",
       "source": null,
       "verificationStatus": "unverified",
@@ -33142,6 +35306,12 @@
       "englishTranslation": "drama / theatre",
       "pinyin": "xìjù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "drama / theatre",
       "source": null,
       "verificationStatus": "unverified",
@@ -33323,6 +35493,12 @@
       "englishTranslation": "actor",
       "pinyin": "yǎnyuán",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "actor",
       "source": null,
       "verificationStatus": "unverified",
@@ -33492,6 +35668,12 @@
       "englishTranslation": "singer",
       "pinyin": "gēshǒu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "singer",
       "source": null,
       "verificationStatus": "unverified",
@@ -33661,6 +35843,12 @@
       "englishTranslation": "color",
       "pinyin": "yánsè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "color",
       "source": null,
       "verificationStatus": "unverified",
@@ -33846,6 +36034,12 @@
       "englishTranslation": "form / shape",
       "pinyin": "xíngtài",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "form / shape",
       "source": null,
       "verificationStatus": "unverified",
@@ -34015,6 +36209,24 @@
       "englishTranslation": "number",
       "pinyin": "shùzì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "number",
       "source": null,
       "verificationStatus": "unverified",
@@ -34184,6 +36396,12 @@
       "englishTranslation": "calculation",
       "pinyin": "jìsuàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "calculation",
       "source": null,
       "verificationStatus": "unverified",
@@ -34365,6 +36583,12 @@
       "englishTranslation": "land (vs sea)",
       "pinyin": "lùdì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "land (vs sea)",
       "source": null,
       "verificationStatus": "unverified",
@@ -34546,6 +36770,24 @@
       "englishTranslation": "ocean",
       "pinyin": "dàyáng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "ocean",
       "source": null,
       "verificationStatus": "unverified",
@@ -34727,6 +36969,24 @@
       "englishTranslation": "lake",
       "pinyin": "húshuǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "后缀"
+        ],
+        "en": [
+          "noun",
+          "suffix"
+        ],
+        "ja": [
+          "名詞",
+          "接尾辞"
+        ],
+        "ko": [
+          "명사",
+          "접미사"
+        ]
+      },
       "meaning": "lake",
       "source": null,
       "verificationStatus": "unverified",
@@ -34908,6 +37168,12 @@
       "englishTranslation": "valley",
       "pinyin": "xīgǔ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "valley",
       "source": null,
       "verificationStatus": "unverified",
@@ -35077,6 +37343,12 @@
       "englishTranslation": "animal",
       "pinyin": "dòngwù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "animal",
       "source": null,
       "verificationStatus": "unverified",
@@ -35246,6 +37518,24 @@
       "englishTranslation": "plant",
       "pinyin": "zhíwù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "plant",
       "source": null,
       "verificationStatus": "unverified",
@@ -35415,6 +37705,28 @@
       "englishTranslation": "gold",
       "pinyin": "jīn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사"
+        ]
+      },
       "meaning": "gold",
       "source": null,
       "verificationStatus": "unverified",
@@ -35600,6 +37912,28 @@
       "englishTranslation": "silver",
       "pinyin": "yín",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사"
+        ]
+      },
       "meaning": "silver",
       "source": null,
       "verificationStatus": "unverified",
@@ -35797,6 +38131,28 @@
       "englishTranslation": "iron",
       "pinyin": "tiě",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사"
+        ]
+      },
       "meaning": "iron",
       "source": null,
       "verificationStatus": "unverified",
@@ -35986,6 +38342,28 @@
       "englishTranslation": "electricity",
       "pinyin": "diàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "동사"
+        ]
+      },
       "meaning": "electricity",
       "source": null,
       "verificationStatus": "unverified",
@@ -36155,6 +38533,12 @@
       "englishTranslation": "sound / voice",
       "pinyin": "shēngyīn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "sound / voice",
       "source": null,
       "verificationStatus": "unverified",
@@ -36324,6 +38708,12 @@
       "englishTranslation": "speed",
       "pinyin": "sùdù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "speed",
       "source": null,
       "verificationStatus": "unverified",
@@ -36493,6 +38883,24 @@
       "englishTranslation": "distance",
       "pinyin": "jùlí",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "distance",
       "source": null,
       "verificationStatus": "unverified",
@@ -36674,6 +39082,12 @@
       "englishTranslation": "direction",
       "pinyin": "fāngxiàng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "direction",
       "source": null,
       "verificationStatus": "unverified",
@@ -36843,6 +39257,24 @@
       "englishTranslation": "location / position",
       "pinyin": "wèizhì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "location / position",
       "source": null,
       "verificationStatus": "unverified",
@@ -37024,6 +39456,12 @@
       "englishTranslation": "space (physical)",
       "pinyin": "kōngjiān",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "space (physical)",
       "source": null,
       "verificationStatus": "unverified",
@@ -37193,6 +39631,28 @@
       "englishTranslation": "center",
       "pinyin": "zhōngxīn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "고유명사"
+        ]
+      },
       "meaning": "center",
       "source": null,
       "verificationStatus": "unverified",
@@ -37378,6 +39838,24 @@
       "englishTranslation": "inside / interior",
       "pinyin": "nèibù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "inside / interior",
       "source": null,
       "verificationStatus": "unverified",
@@ -37559,6 +40037,24 @@
       "englishTranslation": "outside / exterior",
       "pinyin": "wàibù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "outside / exterior",
       "source": null,
       "verificationStatus": "unverified",
@@ -37740,6 +40236,24 @@
       "englishTranslation": "east",
       "pinyin": "dōng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "east",
       "source": null,
       "verificationStatus": "unverified",
@@ -37937,6 +40451,24 @@
       "englishTranslation": "west",
       "pinyin": "xī",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "west",
       "source": null,
       "verificationStatus": "unverified",
@@ -38122,6 +40654,12 @@
       "englishTranslation": "south",
       "pinyin": "nán",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "south",
       "source": null,
       "verificationStatus": "unverified",
@@ -38307,6 +40845,28 @@
       "englishTranslation": "north",
       "pinyin": "běi",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "동사"
+        ]
+      },
       "meaning": "north",
       "source": null,
       "verificationStatus": "unverified",
@@ -38476,6 +41036,28 @@
       "englishTranslation": "door",
       "pinyin": "mén",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词",
+          "量词"
+        ],
+        "en": [
+          "noun",
+          "proper noun",
+          "counter"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞",
+          "助数詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사",
+          "양수사"
+        ]
+      },
       "meaning": "door",
       "source": null,
       "verificationStatus": "unverified",
@@ -38661,6 +41243,12 @@
       "englishTranslation": "window",
       "pinyin": "chuānghù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "window",
       "source": null,
       "verificationStatus": "unverified",
@@ -38830,6 +41418,12 @@
       "englishTranslation": "chair",
       "pinyin": "yǐzǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "chair",
       "source": null,
       "verificationStatus": "unverified",
@@ -38999,6 +41593,24 @@
       "englishTranslation": "bed",
       "pinyin": "chuáng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "量词"
+        ],
+        "en": [
+          "noun",
+          "counter"
+        ],
+        "ja": [
+          "名詞",
+          "助数詞"
+        ],
+        "ko": [
+          "명사",
+          "양수사"
+        ]
+      },
       "meaning": "bed",
       "source": null,
       "verificationStatus": "unverified",
@@ -39168,6 +41780,12 @@
       "englishTranslation": "clothing",
       "pinyin": "yīfú",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "clothing",
       "source": null,
       "verificationStatus": "unverified",
@@ -39337,6 +41955,12 @@
       "englishTranslation": "hat / cap",
       "pinyin": "màozǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "hat / cap",
       "source": null,
       "verificationStatus": "unverified",
@@ -39518,6 +42142,12 @@
       "englishTranslation": "clock / watch",
       "pinyin": "zhōngbiǎo",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "clock / watch",
       "source": null,
       "verificationStatus": "unverified",
@@ -39687,6 +42317,12 @@
       "englishTranslation": "umbrella",
       "pinyin": "yǔsǎn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "umbrella",
       "source": null,
       "verificationStatus": "unverified",
@@ -39856,6 +42492,12 @@
       "englishTranslation": "kitchen",
       "pinyin": "chúfáng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "kitchen",
       "source": null,
       "verificationStatus": "unverified",
@@ -40025,6 +42667,24 @@
       "englishTranslation": "cooking / cuisine",
       "pinyin": "liàolǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "cooking / cuisine",
       "source": null,
       "verificationStatus": "unverified",
@@ -40218,6 +42878,24 @@
       "englishTranslation": "fashion / trend",
       "pinyin": "liúxíng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "动词"
+        ],
+        "en": [
+          "adjective",
+          "verb"
+        ],
+        "ja": [
+          "形容詞",
+          "動詞"
+        ],
+        "ko": [
+          "형용사",
+          "동사"
+        ]
+      },
       "meaning": "fashion / trend",
       "source": null,
       "verificationStatus": "unverified",
@@ -40403,6 +43081,12 @@
       "englishTranslation": "shop / store",
       "pinyin": "shāngdiàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "shop / store",
       "source": null,
       "verificationStatus": "unverified",
@@ -40572,6 +43256,12 @@
       "englishTranslation": "workplace",
       "pinyin": "zhícháng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "workplace",
       "source": null,
       "verificationStatus": "unverified",
@@ -40741,6 +43431,24 @@
       "englishTranslation": "occupation",
       "pinyin": "zhíyè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "occupation",
       "source": null,
       "verificationStatus": "unverified",
@@ -40910,6 +43618,12 @@
       "englishTranslation": "business / enterprise",
       "pinyin": "shìyè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "business / enterprise",
       "source": null,
       "verificationStatus": "unverified",
@@ -41079,6 +43793,24 @@
       "englishTranslation": "meeting",
       "pinyin": "huìyì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "meeting",
       "source": null,
       "verificationStatus": "unverified",
@@ -41260,6 +43992,12 @@
       "englishTranslation": "discussion",
       "pinyin": "tǎolùn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "discussion",
       "source": null,
       "verificationStatus": "unverified",
@@ -41441,6 +44179,24 @@
       "englishTranslation": "contract",
       "pinyin": "qìyuē",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词"
+        ],
+        "en": [
+          "noun",
+          "adjective"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사"
+        ]
+      },
       "meaning": "contract",
       "source": null,
       "verificationStatus": "unverified",
@@ -41622,6 +44378,12 @@
       "englishTranslation": "promotion (job)",
       "pinyin": "jìnshēng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "promotion (job)",
       "source": null,
       "verificationStatus": "unverified",
@@ -41803,6 +44565,12 @@
       "englishTranslation": "retirement",
       "pinyin": "tuìzhí",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "retirement",
       "source": null,
       "verificationStatus": "unverified",
@@ -41984,6 +44752,24 @@
       "englishTranslation": "travel / trip",
       "pinyin": "lǚxíng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "travel / trip",
       "source": null,
       "verificationStatus": "unverified",
@@ -42165,6 +44951,12 @@
       "englishTranslation": "airport",
       "pinyin": "kōnggǎng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "airport",
       "source": null,
       "verificationStatus": "unverified",
@@ -42334,6 +45126,28 @@
       "englishTranslation": "station",
       "pinyin": "zhàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "专有名词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "proper noun",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "固有名詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "고유명사",
+          "명사"
+        ]
+      },
       "meaning": "station",
       "source": null,
       "verificationStatus": "unverified",
@@ -42515,6 +45329,24 @@
       "englishTranslation": "train",
       "pinyin": "lièchē",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "专有名词"
+        ],
+        "en": [
+          "noun",
+          "proper noun"
+        ],
+        "ja": [
+          "名詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "명사",
+          "고유명사"
+        ]
+      },
       "meaning": "train",
       "source": null,
       "verificationStatus": "unverified",
@@ -42684,6 +45516,12 @@
       "englishTranslation": "subway",
       "pinyin": "dìtiě",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "subway",
       "source": null,
       "verificationStatus": "unverified",
@@ -42853,6 +45691,12 @@
       "englishTranslation": "car / automobile",
       "pinyin": "zìdòngchē",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "car / automobile",
       "source": null,
       "verificationStatus": "unverified",
@@ -43022,6 +45866,12 @@
       "englishTranslation": "bicycle",
       "pinyin": "zìxíngchē",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "bicycle",
       "source": null,
       "verificationStatus": "unverified",
@@ -43191,6 +46041,12 @@
       "englishTranslation": "road",
       "pinyin": "dàolù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "road",
       "source": null,
       "verificationStatus": "unverified",
@@ -43372,6 +46228,12 @@
       "englishTranslation": "sightseeing",
       "pinyin": "guānguāng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "sightseeing",
       "source": null,
       "verificationStatus": "unverified",
@@ -43553,6 +46415,32 @@
       "englishTranslation": "happiness",
       "pinyin": "xìngfú",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词",
+          "动词",
+          "专有名词"
+        ],
+        "en": [
+          "adjective",
+          "noun",
+          "verb",
+          "proper noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞",
+          "動詞",
+          "固有名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사",
+          "동사",
+          "고유명사"
+        ]
+      },
       "meaning": "happiness",
       "source": null,
       "verificationStatus": "unverified",
@@ -43734,6 +46622,12 @@
       "englishTranslation": "anger",
       "pinyin": "fènnù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "形容词",
+        "en": "adjective",
+        "ja": "形容詞",
+        "ko": "형용사"
+      },
       "meaning": "anger",
       "source": null,
       "verificationStatus": "unverified",
@@ -43919,6 +46813,24 @@
       "englishTranslation": "fear / terror",
       "pinyin": "kǒngbù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "fear / terror",
       "source": null,
       "verificationStatus": "unverified",
@@ -44100,6 +47012,12 @@
       "englishTranslation": "courage",
       "pinyin": "yǒngqì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "courage",
       "source": null,
       "verificationStatus": "unverified",
@@ -44269,6 +47187,24 @@
       "englishTranslation": "patience",
       "pinyin": "rěnnài",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "patience",
       "source": null,
       "verificationStatus": "unverified",
@@ -44450,6 +47386,12 @@
       "englishTranslation": "kindness",
       "pinyin": "qīnqiè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "形容词",
+        "en": "adjective",
+        "ja": "形容詞",
+        "ko": "형용사"
+      },
       "meaning": "kindness",
       "source": null,
       "verificationStatus": "unverified",
@@ -44631,6 +47573,24 @@
       "englishTranslation": "trust",
       "pinyin": "xìnlài",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "trust",
       "source": null,
       "verificationStatus": "unverified",
@@ -44812,6 +47772,12 @@
       "englishTranslation": "responsibility",
       "pinyin": "zérèn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "responsibility",
       "source": null,
       "verificationStatus": "unverified",
@@ -44981,6 +47947,24 @@
       "englishTranslation": "duty",
       "pinyin": "yìwù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "duty",
       "source": null,
       "verificationStatus": "unverified",
@@ -45150,6 +48134,12 @@
       "englishTranslation": "rights",
       "pinyin": "quánlì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "rights",
       "source": null,
       "verificationStatus": "unverified",
@@ -45319,6 +48309,24 @@
       "englishTranslation": "justice",
       "pinyin": "zhèngyì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "justice",
       "source": null,
       "verificationStatus": "unverified",
@@ -45488,6 +48496,24 @@
       "englishTranslation": "crime",
       "pinyin": "fànzuì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "形容词"
+        ],
+        "en": [
+          "verb",
+          "adjective"
+        ],
+        "ja": [
+          "動詞",
+          "形容詞"
+        ],
+        "ko": [
+          "동사",
+          "형용사"
+        ]
+      },
       "meaning": "crime",
       "source": null,
       "verificationStatus": "unverified",
@@ -45657,6 +48683,24 @@
       "englishTranslation": "punishment",
       "pinyin": "chùfá",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "punishment",
       "source": null,
       "verificationStatus": "unverified",
@@ -45838,6 +48882,24 @@
       "englishTranslation": "police",
       "pinyin": "jǐngchá",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "police",
       "source": null,
       "verificationStatus": "unverified",
@@ -46019,6 +49081,24 @@
       "englishTranslation": "report",
       "pinyin": "bàogào",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "report",
       "source": null,
       "verificationStatus": "unverified",
@@ -46212,6 +49292,12 @@
       "englishTranslation": "information",
       "pinyin": "qíngbào",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "information",
       "source": null,
       "verificationStatus": "unverified",
@@ -46381,6 +49467,24 @@
       "englishTranslation": "explanation",
       "pinyin": "shuōmíng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "explanation",
       "source": null,
       "verificationStatus": "unverified",
@@ -46562,6 +49666,24 @@
       "englishTranslation": "advice",
       "pinyin": "jiànyì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "advice",
       "source": null,
       "verificationStatus": "unverified",
@@ -46743,6 +49865,24 @@
       "englishTranslation": "decision",
       "pinyin": "juédìng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "decision",
       "source": null,
       "verificationStatus": "unverified",
@@ -46924,6 +50064,24 @@
       "englishTranslation": "choice",
       "pinyin": "xuǎnzé",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "choice",
       "source": null,
       "verificationStatus": "unverified",
@@ -47105,6 +50263,12 @@
       "englishTranslation": "development",
       "pinyin": "fāzhǎn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "development",
       "source": null,
       "verificationStatus": "unverified",
@@ -47286,6 +50450,12 @@
       "englishTranslation": "growth",
       "pinyin": "chéngzhǎng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "growth",
       "source": null,
       "verificationStatus": "unverified",
@@ -47467,6 +50637,12 @@
       "englishTranslation": "improvement",
       "pinyin": "gǎishàn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "improvement",
       "source": null,
       "verificationStatus": "unverified",
@@ -47648,6 +50824,12 @@
       "englishTranslation": "possibility",
       "pinyin": "kěnéngxìng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "possibility",
       "source": null,
       "verificationStatus": "unverified",
@@ -47817,6 +50999,24 @@
       "englishTranslation": "necessity",
       "pinyin": "bìyào",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "necessity",
       "source": null,
       "verificationStatus": "unverified",
@@ -47998,6 +51198,12 @@
       "englishTranslation": "difference",
       "pinyin": "chāyì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "difference",
       "source": null,
       "verificationStatus": "unverified",
@@ -48167,6 +51373,24 @@
       "englishTranslation": "relationship",
       "pinyin": "guānxì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "relationship",
       "source": null,
       "verificationStatus": "unverified",
@@ -48352,6 +51576,24 @@
       "englishTranslation": "contact",
       "pinyin": "liánluò",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "contact",
       "source": null,
       "verificationStatus": "unverified",
@@ -48533,6 +51775,24 @@
       "englishTranslation": "influence",
       "pinyin": "yǐngxiǎng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "influence",
       "source": null,
       "verificationStatus": "unverified",
@@ -48714,6 +51974,12 @@
       "englishTranslation": "effect",
       "pinyin": "xiàoguǒ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "effect",
       "source": null,
       "verificationStatus": "unverified",
@@ -48895,6 +52161,24 @@
       "englishTranslation": "loss / damage",
       "pinyin": "sǔnhài",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "loss / damage",
       "source": null,
       "verificationStatus": "unverified",
@@ -49076,6 +52360,24 @@
       "englishTranslation": "solution",
       "pinyin": "jiějué",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "solution",
       "source": null,
       "verificationStatus": "unverified",
@@ -49257,6 +52559,12 @@
       "englishTranslation": "kind / type",
       "pinyin": "zhǒnglèi",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "kind / type",
       "source": null,
       "verificationStatus": "unverified",
@@ -49438,6 +52746,12 @@
       "englishTranslation": "part",
       "pinyin": "bùfen",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "part",
       "source": null,
       "verificationStatus": "unverified",
@@ -49607,6 +52921,28 @@
       "englishTranslation": "whole / entire",
       "pinyin": "quántǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "形容词",
+          "副词"
+        ],
+        "en": [
+          "noun",
+          "adjective",
+          "adverb"
+        ],
+        "ja": [
+          "名詞",
+          "形容詞",
+          "副詞"
+        ],
+        "ko": [
+          "명사",
+          "형용사",
+          "부사"
+        ]
+      },
       "meaning": "whole / entire",
       "source": null,
       "verificationStatus": "unverified",
@@ -49792,6 +53128,12 @@
       "englishTranslation": "quantity",
       "pinyin": "shùliàng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "quantity",
       "source": null,
       "verificationStatus": "unverified",
@@ -49961,6 +53303,12 @@
       "englishTranslation": "degree / extent",
       "pinyin": "chéngdù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "degree / extent",
       "source": null,
       "verificationStatus": "unverified",
@@ -50146,6 +53494,24 @@
       "englishTranslation": "level",
       "pinyin": "shuǐzhǔn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "形容词",
+          "名词"
+        ],
+        "en": [
+          "adjective",
+          "noun"
+        ],
+        "ja": [
+          "形容詞",
+          "名詞"
+        ],
+        "ko": [
+          "형용사",
+          "명사"
+        ]
+      },
       "meaning": "level",
       "source": null,
       "verificationStatus": "unverified",
@@ -50315,6 +53681,12 @@
       "englishTranslation": "standard / criterion",
       "pinyin": "jīzhǔn",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "standard / criterion",
       "source": null,
       "verificationStatus": "unverified",
@@ -50484,6 +53856,12 @@
       "englishTranslation": "tool",
       "pinyin": "dàojù",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "tool",
       "source": null,
       "verificationStatus": "unverified",
@@ -50653,6 +54031,12 @@
       "englishTranslation": "machine",
       "pinyin": "jīxiè",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
       "meaning": "machine",
       "source": null,
       "verificationStatus": "unverified",
@@ -50822,6 +54206,24 @@
       "englishTranslation": "system",
       "pinyin": "tǐxì",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "后缀"
+        ],
+        "en": [
+          "noun",
+          "suffix"
+        ],
+        "ja": [
+          "名詞",
+          "接尾辞"
+        ],
+        "ko": [
+          "명사",
+          "접미사"
+        ]
+      },
       "meaning": "system",
       "source": null,
       "verificationStatus": "unverified",
@@ -51003,6 +54405,24 @@
       "englishTranslation": "structure",
       "pinyin": "jiégòu",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "名词",
+          "动词"
+        ],
+        "en": [
+          "noun",
+          "verb"
+        ],
+        "ja": [
+          "名詞",
+          "動詞"
+        ],
+        "ko": [
+          "명사",
+          "동사"
+        ]
+      },
       "meaning": "structure",
       "source": null,
       "verificationStatus": "unverified",
@@ -51172,6 +54592,24 @@
       "englishTranslation": "organization",
       "pinyin": "zǔzhī",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "organization",
       "source": null,
       "verificationStatus": "unverified",
@@ -51353,6 +54791,12 @@
       "englishTranslation": "management",
       "pinyin": "guǎnlǐ",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "management",
       "source": null,
       "verificationStatus": "unverified",
@@ -51534,6 +54978,12 @@
       "englishTranslation": "operation / running",
       "pinyin": "yùnyíng",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "operation / running",
       "source": null,
       "verificationStatus": "unverified",
@@ -51715,6 +55165,24 @@
       "englishTranslation": "support",
       "pinyin": "zhīyuán",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": [
+          "动词",
+          "名词"
+        ],
+        "en": [
+          "verb",
+          "noun"
+        ],
+        "ja": [
+          "動詞",
+          "名詞"
+        ],
+        "ko": [
+          "동사",
+          "명사"
+        ]
+      },
       "meaning": "support",
       "source": null,
       "verificationStatus": "unverified",
@@ -51896,6 +55364,12 @@
       "englishTranslation": "change",
       "pinyin": "biànhuà",
       "romanization": {},
+      "partsOfSpeech": {
+        "zh": "动词",
+        "en": "verb",
+        "ja": "動詞",
+        "ko": "동사"
+      },
       "meaning": "change",
       "source": null,
       "verificationStatus": "unverified",
