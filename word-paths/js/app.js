@@ -23,8 +23,6 @@ const searchLanguageOptions = [...document.querySelectorAll("[data-search-langua
 const languageSelect = document.querySelector("#language");
 const randomButton = document.querySelector("#random");
 const detailsPanel = document.querySelector("#details");
-const resultCount = document.querySelector("#result-count");
-const datasetStats = document.querySelector("#dataset-stats");
 const developmentNotice = document.querySelector("#development-notice");
 const trail = document.querySelector("#trail");
 const trailBack = document.querySelector("#trail-back");
@@ -104,47 +102,6 @@ function getConnections(word, activeTypes = state.activeTypes, data = state.data
   return [...connections.values()];
 }
 
-function countDisplayableRelationships(data) {
-  const wordIds = new Set(data.words.map((word) => word.id));
-  const relationshipIds = new Map();
-  const counts = { total: 0, verified: 0, equivalents: 0, semantic: 0 };
-  for (const word of data.words) {
-    for (const connection of word.connections) {
-      if (connection.verificationStatus === "verified" &&
-          connection.productRelationType &&
-          Object.prototype.hasOwnProperty.call(data.relationshipTypes, connection.productRelationType) &&
-          connection.sourceWordId === word.id &&
-          wordIds.has(connection.targetWordId)) {
-        relationshipIds.set(relationshipIdentityKey(connection), connection.verificationStatus);
-      }
-    }
-  }
-  for (const [key, status] of relationshipIds) {
-    counts[status] += 1;
-    const type = key.slice(key.lastIndexOf("\u0000") + 1);
-    if (type === "equivalent") counts.equivalents += 1;
-    else counts.semantic += 1;
-  }
-  counts.total = relationshipIds.size;
-  return counts;
-}
-
-function countDemoRelationships(data) {
-  const wordIds = new Set(data.words.map((word) => word.id));
-  const relationshipIds = new Set();
-  for (const word of data.words) {
-    for (const connection of word.connections) {
-      if (connection.verificationStatus !== "demo" ||
-          connection.sourceWordId !== word.id ||
-          !connection.productRelationType ||
-          !Object.prototype.hasOwnProperty.call(data.relationshipTypes, connection.productRelationType) ||
-          !wordIds.has(connection.targetWordId)) continue;
-      relationshipIds.add(relationshipIdentityKey(connection));
-    }
-  }
-  return relationshipIds.size;
-}
-
 async function addDemoRelationships(data) {
   const response = await fetch(new URL("../data/demo-relationships.json", import.meta.url));
   if (!response.ok) throw new Error(`Unable to load development graph fixtures: HTTP ${response.status}`);
@@ -186,6 +143,60 @@ function wordById(id) {
   return state.data?.words.find((word) => word.id === id) ?? null;
 }
 
+// 地址栏用 ?word= 标记当前中心词，刷新或分享时能回到同一个词条页面。
+function syncWordUrl(id) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("word", id);
+  try {
+    window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+  } catch (error) {
+    console.warn("Unable to update the word URL:", error);
+  }
+}
+
+function requestedWordId() {
+  const id = new URLSearchParams(window.location.search).get("word");
+  return id && wordById(id) ? id : null;
+}
+
+// 随机探索优先选当前语言里能画出关系的词，避免打开后只剩一个孤立中心词。
+// 与 getConnections 一致：一段关系只有两端语言都被勾选时才可能被画出。
+function wordsWithDisplayableRelations(languages) {
+  const active = languages.size ? languages : null;
+  const byId = new Map(state.data.words.map((word) => [word.id, word]));
+  const related = new Set();
+  for (const word of state.data.words) {
+    for (const connection of word.connections) {
+      const type = connection.productRelationType;
+      if (!type || !state.activeTypes.has(type)) continue;
+      if ((!state.developmentGraph && connection.verificationStatus !== "verified") ||
+          (state.developmentGraph &&
+           !["verified", "demo"].includes(connection.verificationStatus))) continue;
+      const target = byId.get(connection.targetWordId);
+      if (!target) continue;
+      if (active && (!active.has(word.language) || !active.has(target.language))) continue;
+      related.add(word.id);
+      if (connection.directionality === "symmetric") related.add(target.id);
+    }
+  }
+  return related;
+}
+
+function randomWordPool(excludeId = null) {
+  const languages = selectedSearchLanguages();
+  const candidates = state.data.words.filter((word) => word.id !== excludeId);
+  const languagePool = languages.size
+    ? candidates.filter((word) => languages.has(word.language))
+    : candidates;
+  // 词库中的对等关系几乎都是跨语言的：只勾一种语言时画不出关系，
+  // 此时直接在该语言全部词条里随机，并用提示说明原因。
+  const related = languages.size > 1 ? wordsWithDisplayableRelations(languages) : new Set();
+  const relatedPool = languagePool.filter((word) => related.has(word.id));
+  if (relatedPool.length) return { pool: relatedPool, related: true };
+  if (languagePool.length) return { pool: languagePool, related: false };
+  return { pool: candidates, related: false };
+}
+
 function resetSearchUi() {
   state.searchRequest += 1;
   state.query = "";
@@ -211,6 +222,7 @@ function selectWord(id, relation = null, replaceTrail = false) {
   state.peekId = null;
   state.languageHint = null;
   resetSearchUi();
+  syncWordUrl(id);
   render();
 }
 
@@ -255,6 +267,7 @@ function selectTrailStep(index) {
   state.peekId = null;
   state.languageHint = null;
   resetSearchUi();
+  syncWordUrl(step.id);
   render();
 }
 
@@ -345,12 +358,11 @@ function peekReading(word) {
   return word.romanization?.[word.language];
 }
 
+// 弹窗跳转到本站的词条页（以 ?word= 深链把该词设为中心词），来源另作外链。
 function entryUrlFor(word) {
-  if (word.source?.url) return word.source.url;
-  const encoded = encodeURIComponent(word.word);
-  if (word.language === "ko") return `https://ko.wiktionary.org/wiki/${encoded}`;
-  if (word.language === "ja") return `https://ja.wiktionary.org/wiki/${encoded}`;
-  return `https://zh.wiktionary.org/wiki/${encoded}`;
+  const url = new URL("index.html", window.location.href);
+  url.searchParams.set("word", word.id);
+  return url.href;
 }
 
 function renderPeek() {
@@ -391,10 +403,17 @@ function renderPeek() {
   const entry = document.createElement("a");
   entry.className = "graph-peek-link";
   entry.href = entryUrlFor(word);
-  entry.target = "_blank";
-  entry.rel = "noreferrer";
   entry.textContent = translate(state.language, "peek.openEntry");
   nodes.push(entry);
+  if (word.source?.url) {
+    const source = document.createElement("a");
+    source.className = "graph-peek-source";
+    source.href = word.source.url;
+    source.target = "_blank";
+    source.rel = "noreferrer";
+    source.textContent = translate(state.language, "peek.source");
+    nodes.push(source);
+  }
   graphPeek.replaceChildren(...nodes);
 }
 
@@ -415,33 +434,6 @@ function render() {
       state.developmentGraph ? "graph.noDevelopmentRelationships" : "graph.noVerified");
   } else if (matchingConnections.length === 0) {
     graphMessage.textContent = translate(state.language, "graph.noFiltered");
-  }
-
-  const connectionCount = matchingConnections.length;
-  resultCount.textContent = displayableConnections.length === 0
-    ? translate(state.language,
-      state.developmentGraph ? "search.noDevelopmentRelationships" : "search.noVerified")
-    : connectionCount === 0
-      ? translate(state.language, "search.noFiltered")
-      : translate(state.language, connectionCount === 1 ? "search.focusRelationsOne" : "search.focusRelations", {
-          count: connectionCount
-        });
-  const datasetRelationshipCounts = countDisplayableRelationships(state.data);
-  const formattedWordCount = new Intl.NumberFormat(state.language).format(state.data.words.length);
-  const formatCount = (count) => new Intl.NumberFormat(state.language).format(count);
-  datasetStats.textContent = translate(state.language, "search.datasetStats", {
-    words: formattedWordCount,
-    relations: formatCount(datasetRelationshipCounts.total),
-    verified: formatCount(datasetRelationshipCounts.verified),
-    equivalents: formatCount(datasetRelationshipCounts.equivalents),
-    semantic: formatCount(datasetRelationshipCounts.semantic)
-  });
-  if (state.developmentGraph) {
-    const formattedDemoCount = new Intl.NumberFormat(state.language)
-      .format(countDemoRelationships(state.data));
-    datasetStats.textContent += ` · ${translate(state.language, "search.demoStats", {
-      count: formattedDemoCount
-    })}`;
   }
 
   const relation = state.selectedRelation
@@ -747,19 +739,20 @@ async function initialize() {
       ? await addDemoRelationships(state.localData)
       : state.localData;
     updateDevelopmentNotice();
-    state.selectedId = state.developmentGraph
-      ? "water-zh"
-      : state.data.words[Math.floor(Math.random() * state.data.words.length)].id;
+    const requested = requestedWordId();
+    const pool = randomWordPool().pool;
+    const initial = requested ??
+      (state.developmentGraph ? "water-zh" : pool[Math.floor(Math.random() * pool.length)].id);
+    state.selectedId = initial;
     state.trail = [{ id: state.selectedId, relation: null }];
     state.expandedIds = new Set();
     state.peekId = null;
+    if (requested) syncWordUrl(requested);
     render();
   } catch (error) {
     console.error("Unable to load the word graph:", error);
     graphMessage.hidden = false;
     graphMessage.textContent = translate(state.language, "load.failed");
-    resultCount.textContent = translate(state.language, "search.datasetUnavailable");
-    datasetStats.textContent = translate(state.language, "search.datasetUnavailable");
     renderEmptyDetails(detailsPanel, state.language);
   }
 }
@@ -854,11 +847,11 @@ for (const button of filters) {
 randomButton.addEventListener("click", () => {
   if (!state.data || randomButton.classList.contains("is-spinning")) return;
   randomButton.classList.add("is-spinning");
-  const choices = state.data.words.filter((word) => word.id !== state.selectedId);
-  const pool = choices.length ? choices : state.data.words;
+  const { pool, related } = randomWordPool(state.selectedId);
   window.setTimeout(() => {
     randomButton.classList.remove("is-spinning");
     selectWord(pool[Math.floor(Math.random() * pool.length)].id, null, true);
+    if (!related) showMessage("search.randomFallback", true);
   }, 420);
 });
 

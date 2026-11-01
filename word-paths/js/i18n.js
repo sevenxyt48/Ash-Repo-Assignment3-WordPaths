@@ -137,6 +137,8 @@ const COPY = {
     "details.languageUnavailable": "本地词库暂未收录{language}的对应词条。",
     "peek.close": "关闭预览",
     "peek.openEntry": "打开词条页面",
+    "peek.source": "来源",
+    "search.randomFallback": "当前勾选的语种没有可展示关系的词条，已随机选择该语种的其他词条。",
     "dataset.apiLink": "API 使用与许可"
   },
   en: {
@@ -270,6 +272,8 @@ const COPY = {
     "details.languageUnavailable": "The local vocabulary does not include a {language} entry yet.",
     "peek.close": "Close preview",
     "peek.openEntry": "Open entry page",
+    "peek.source": "Source",
+    "search.randomFallback": "No words with displayable relationships were found in the selected languages, so another word in those languages was chosen.",
     "dataset.apiLink": "API usage and licences"
   },
   ja: {
@@ -403,6 +407,8 @@ const COPY = {
     "details.languageUnavailable": "{language}の対応項目はローカル語彙にまだありません。",
     "peek.close": "プレビューを閉じる",
     "peek.openEntry": "項目ページを開く",
+    "peek.source": "出典",
+    "search.randomFallback": "選択した言語に表示可能な関係のある語がなかったため、その言語の別の語を選びました。",
     "dataset.apiLink": "API 利用とライセンス"
   },
   ko: {
@@ -536,6 +542,8 @@ const COPY = {
     "details.languageUnavailable": "이 언어({language})의 해당 항목은 아직 로컬 어휘에 없습니다.",
     "peek.close": "미리 보기 닫기",
     "peek.openEntry": "항목 페이지 열기",
+    "peek.source": "출처",
+    "search.randomFallback": "선택한 언어에 표시할 수 있는 관계가 있는 단어가 없어 같은 언어의 다른 단어를 선택했습니다.",
     "dataset.apiLink": "API 사용 및 라이선스"
   }
 };

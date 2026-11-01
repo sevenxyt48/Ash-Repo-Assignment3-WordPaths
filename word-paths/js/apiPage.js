@@ -25,15 +25,9 @@ const CONTENT = {
       },
       {
         name: "中文维基词典 MediaWiki API",
-        purpose: "词条语言章节、汉字写法、拼音、日语假名读音与词源资料。",
+        purpose: "词条语言章节、汉字写法、拼音、中文词性、日语假名读音与词源资料。",
         source: { text: "zh.wiktionary.org", href: "https://zh.wiktionary.org/" },
         terms: { text: "CC BY-SA 4.0", href: "https://creativecommons.org/licenses/by-sa/4.0/" }
-      },
-      {
-        name: "萌典 MoeDict",
-        purpose: "中文拼音、注音、笔画与部首等补充资料。",
-        source: { text: "moedict.tw", href: "https://www.moedict.tw/" },
-        terms: { text: "CC BY-ND 3.0 TW", href: "https://creativecommons.org/licenses/by-nd/3.0/tw/" }
       },
       {
         name: "ConceptNet",
@@ -49,7 +43,7 @@ const CONTENT = {
       },
       {
         name: "JMdict",
-        purpose: "批量构建时补强日语假名读音。",
+        purpose: "批量构建时补强日语假名读音与词性标注。",
         source: { text: "edrdg.org", href: "https://www.edrdg.org/jmdict/j_jmdict.html" },
         terms: { text: "CC BY-SA 3.0", href: "https://creativecommons.org/licenses/by-sa/3.0/" }
       }
@@ -76,15 +70,9 @@ const CONTENT = {
       },
       {
         name: "Chinese Wiktionary MediaWiki API",
-        purpose: "Language sections, hanzi forms, pinyin, Japanese kana readings, and etymology material.",
+        purpose: "Language sections, hanzi forms, pinyin, Chinese parts of speech, Japanese kana readings, and etymology material.",
         source: { text: "zh.wiktionary.org", href: "https://zh.wiktionary.org/" },
         terms: { text: "CC BY-SA 4.0", href: "https://creativecommons.org/licenses/by-sa/4.0/" }
-      },
-      {
-        name: "MoeDict (萌典)",
-        purpose: "Chinese pinyin, bopomofo, stroke count, and radical data.",
-        source: { text: "moedict.tw", href: "https://www.moedict.tw/" },
-        terms: { text: "CC BY-ND 3.0 TW", href: "https://creativecommons.org/licenses/by-nd/3.0/tw/" }
       },
       {
         name: "ConceptNet",
@@ -100,7 +88,7 @@ const CONTENT = {
       },
       {
         name: "JMdict",
-        purpose: "Bulk-build fallback for Japanese kana readings.",
+        purpose: "Bulk-build fallback for Japanese kana readings and parts of speech.",
         source: { text: "edrdg.org", href: "https://www.edrdg.org/jmdict/j_jmdict.html" },
         terms: { text: "CC BY-SA 3.0", href: "https://creativecommons.org/licenses/by-sa/3.0/" }
       }
@@ -127,15 +115,9 @@ const CONTENT = {
       },
       {
         name: "中国語版ウィクショナリー MediaWiki API",
-        purpose: "項目の言語節、漢字表記、ピンイン、日本語の仮名読み、語源資料。",
+        purpose: "項目の言語節、漢字表記、ピンイン、中国語の品詞、日本語の仮名読み、語源資料。",
         source: { text: "zh.wiktionary.org", href: "https://zh.wiktionary.org/" },
         terms: { text: "CC BY-SA 4.0", href: "https://creativecommons.org/licenses/by-sa/4.0/" }
-      },
-      {
-        name: "萌典 MoeDict",
-        purpose: "中国語のピンイン、注音、画数、部首などの補完データ。",
-        source: { text: "moedict.tw", href: "https://www.moedict.tw/" },
-        terms: { text: "CC BY-ND 3.0 TW", href: "https://creativecommons.org/licenses/by-nd/3.0/tw/" }
       },
       {
         name: "ConceptNet",
@@ -151,7 +133,7 @@ const CONTENT = {
       },
       {
         name: "JMdict",
-        purpose: "一括構築時に日本語の仮名読みを補完。",
+        purpose: "一括構築時に日本語の仮名読みと品詞を補完。",
         source: { text: "edrdg.org", href: "https://www.edrdg.org/jmdict/j_jmdict.html" },
         terms: { text: "CC BY-SA 3.0", href: "https://creativecommons.org/licenses/by-sa/3.0/" }
       }
@@ -178,15 +160,9 @@ const CONTENT = {
       },
       {
         name: "중국어 위키낱말사전 MediaWiki API",
-        purpose: "표제어의 언어 절, 한자 표기, 병음, 일본어 가나 읽기, 어원 자료.",
+        purpose: "표제어의 언어 절, 한자 표기, 병음, 중국어 품사, 일본어 가나 읽기, 어원 자료.",
         source: { text: "zh.wiktionary.org", href: "https://zh.wiktionary.org/" },
         terms: { text: "CC BY-SA 4.0", href: "https://creativecommons.org/licenses/by-sa/4.0/" }
-      },
-      {
-        name: "MoeDict(맹전)",
-        purpose: "중국어 병음, 주음, 획수, 부수 등 보강 데이터.",
-        source: { text: "moedict.tw", href: "https://www.moedict.tw/" },
-        terms: { text: "CC BY-ND 3.0 TW", href: "https://creativecommons.org/licenses/by-nd/3.0/tw/" }
       },
       {
         name: "ConceptNet",
@@ -202,7 +178,7 @@ const CONTENT = {
       },
       {
         name: "JMdict",
-        purpose: "일괄 구축 시 일본어 가나 읽기 보강.",
+        purpose: "일괄 구축 시 일본어 가나 읽기와 품사 보강.",
         source: { text: "edrdg.org", href: "https://www.edrdg.org/jmdict/j_jmdict.html" },
         terms: { text: "CC BY-SA 3.0", href: "https://creativecommons.org/licenses/by-sa/3.0/" }
       }
