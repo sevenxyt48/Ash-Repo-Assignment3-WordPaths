@@ -4,7 +4,9 @@ Word Paths is an interactive web experience for exploring relationships between 
 
 **Course:** SD5913 — Interactive Experience  
 **Project type:** Individual project  
-**Status:** MVP in development
+**Status:** Done
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## The Idea
 
