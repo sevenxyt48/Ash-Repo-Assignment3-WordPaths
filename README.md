@@ -5,8 +5,14 @@ Word Paths is an interactive web experience for exploring relationships between 
 **Course:** SD5913 — Interactive Experience  
 **Project type:** Individual project  
 **Status:** Done
-![alt text](image.png)
-![alt text](image-1.png)
+
+![Word Paths main interface](pic/image.png)
+
+*Main interface: search, language selection, relationship filters, the word graph, and the word detail panel.*
+
+![API usage and licences page](pic/image-1.png)
+
+*API usage and licences page: source attribution and licence terms for the connected APIs.*
 
 ## The Idea
 
@@ -31,17 +37,13 @@ The graph separates cross-language equivalents from semantic relationships. Sema
 
 ## Preview
 
-Add screenshots from the running project before submission. Keep the image files in the repository and update these paths to match their actual locations.
-
-![Main interface](assets/images/main-interface.png)
+![Word Paths main interface](pic/image.png)
 
 *Main interface: search, language selection, relationship filters, and the word graph.*
 
-![Word relationship graph](assets/images/relationship-graph.png)
+![API usage and licences page](pic/image-1.png)
 
-*Example interaction: selecting a related word updates the graph.*
-
-> If these screenshots have not been added yet, replace this section with real screenshots before submitting the repository.
+*API usage and licences: each connected API is listed with its source link and licence.*
 
 ## Run Locally
 
@@ -64,21 +66,33 @@ No package installation or build step is required for the static version. If the
 
 ## Project Structure
 
-The current planned structure is:
+The current structure is:
 
 ```text
 word-paths/
 ├── index.html
+├── api.html
 ├── css/
 │   ├── styles.css
 │   └── animations.css
 ├── js/
 │   ├── app.js
+│   ├── apiPage.js
 │   ├── graph.js
 │   ├── details.js
+│   ├── i18n.js
+│   ├── vocabularyApi.js
+│   ├── wordRepository.js
 │   ├── relationshipValidation.mjs
 │   ├── sourceApi.js
 │   └── auditCandidates.mjs
+├── icon/
+│   ├── Logo.svg
+│   ├── Search.svg
+│   ├── Dice.svg
+│   ├── Arrow.svg
+│   ├── Checked Checkbox.svg
+│   └── Unchecked Checkbox.svg
 ├── data/
 │   ├── words.json
 │   ├── demo-relationships.json
@@ -88,13 +102,10 @@ word-paths/
 ├── server.py
 ├── source_apis.py
 └── test_source_apis.py
-├── assets/
-│   └── images/
+├── pic/
 ├── README.md
 └── PROCESS.md
 ```
-
-The actual repository may differ as development continues. Keep this tree synchronized with the files committed to GitHub.
 
 ## Data and Technical Notes
 
@@ -104,7 +115,7 @@ The actual repository may differ as development continues. Keep this tree synchr
 - The local Python backend optionally queries KRDict. Set `KRDICT_API_KEY` in `word-paths/.env`; the key is never sent to the browser. Existing local vocabulary remains available without the key.
 - ConceptNet or another external source may be unavailable or return errors. The app should continue to provide the local data experience where possible.
 - English is used only as a helper translation; it is not a fourth core dictionary language.
-- The dataset is intentionally small. Word Paths does not claim to cover all Chinese, Japanese, or Korean vocabulary.
+- The dataset is intentionally small. Word Paths does not claim to cover all Chinese, Japanese, or Korean vocabulary. The current snapshot holds 930 word entries (310 each for Chinese, Japanese, and Korean) across 276 shared-hanzi concept clusters, with 849 `verified` relationships shown in the production graph.
 - Individually reviewed relationships eligible for the production graph use `verified` status. The 2026-10-30 owner-authorized batch retains `adopted` status and `metadata.batchAdoption.individuallyReviewed: false`; these records are not claimed to have been individually reviewed and are currently excluded from all graphs and displayable relationship statistics. `candidate` records belong in `data/candidate-relationships.json`; `demo` fixtures belong in `data/demo-relationships.json` and are only included in local development mode; rejected records use `rejected` status and are never displayed.
 - Relationship types are `equivalent` (cross-language correspondence) and the four semantic types `origin`, `similar`, `confusable`, and `antonym`. `directionality` is `directed` for `origin` and `symmetric` for the other four types.
 - KRDict and Chinese Wiktionary lookups are on demand through `server.py`; they do not add graph nodes or formal relationships. Exact Korean-word matches are attached to the existing Korean word ID in `data/krdict-enrichment.json`. A KRDict speech-level suggestion is queued as `candidate` only when a definition explicitly names another existing Korean word and its register; no automatic verification or product-type mapping occurs.
@@ -143,7 +154,15 @@ python -m unittest discover -s word-paths -p "test_*.py" -v
 
 ## Credits
 
-Word Paths is an individual student project for SD5913. Credit any external APIs, datasets, code examples, libraries, fonts, icons, or media used in the final implementation here, including their source links and licences where applicable. Do not include material unless its source and permitted use have been checked.
+Word Paths is an individual student project for SD5913. External APIs and datasets used, with their sources and licences:
+
+- [KRDict (한국어기초사전) Open API](https://krdict.korean.go.kr/) — 공공누리 Type 1 (KOGL Type 1)
+- [Chinese Wiktionary MediaWiki API](https://zh.wiktionary.org/) — CC BY-SA 4.0
+- [ConceptNet](https://conceptnet.io/) — CC BY 4.0
+- [MyMemory translation memory API](https://mymemory.translated.net/) — [Terms of Service](https://mymemory.translated.net/terms-and-conditions)
+- [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) — CC BY-SA 3.0
+
+The in-app [API usage and licences page](word-paths/api.html) presents the same attribution. Fonts are served by Google Fonts (DM Sans, DM Mono, Noto Sans SC/JP/KR). The icons in `word-paths/icon/` were drawn for this project.
 
 ## Development Process
 
@@ -151,6 +170,6 @@ See [`PROCESS.md`](PROCESS.md) for the starting idea, implementation decisions, 
 
 ## Project Links
 
-- **GitHub repository:** Add the public repository URL before submission.
+- **GitHub repository:** https://github.com/sevenxyt48/Ash-Repo-Assignment3-WordPaths
 - **Live demo:** Add a deployed URL if available.
 - **Course:** SD5913 — Interactive Experience
