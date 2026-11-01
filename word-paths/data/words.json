@@ -52062,6 +52062,3293 @@
       "source": null,
       "verificationStatus": "unverified",
       "connections": []
+    },
+    {
+      "id": "environment-zh",
+      "conceptId": "environment",
+      "word": "环境",
+      "language": "zh",
+      "translations": {
+        "zh": "环境",
+        "en": "environment",
+        "ja": "環境",
+        "ko": "환경"
+      },
+      "englishTranslation": "environment",
+      "pinyin": "huánjìng",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "environment",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-environment-zh-ja",
+          "sourceWordId": "environment-zh",
+          "targetWordId": "environment-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%8E%AF%E5%A2%83",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 환경",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=49093"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 环境",
+                "url": "https://zh.wiktionary.org/wiki/%E7%8E%AF%E5%A2%83"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 環境",
+                "url": "https://ja.wiktionary.org/wiki/%E7%92%B0%E5%A2%83"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-environment-zh-ko",
+          "sourceWordId": "environment-zh",
+          "targetWordId": "environment-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%8E%AF%E5%A2%83",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 환경",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=49093"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 环境",
+                "url": "https://zh.wiktionary.org/wiki/%E7%8E%AF%E5%A2%83"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 環境",
+                "url": "https://ja.wiktionary.org/wiki/%E7%92%B0%E5%A2%83"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "environment-ja",
+      "conceptId": "environment",
+      "word": "環境",
+      "language": "ja",
+      "translations": {
+        "zh": "环境",
+        "en": "environment",
+        "ja": "環境",
+        "ko": "환경"
+      },
+      "englishTranslation": "environment",
+      "reading": "かんきょう",
+      "romanization": {
+        "ja": "kankyou"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "environment",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-environment-ja-ko",
+          "sourceWordId": "environment-ja",
+          "targetWordId": "environment-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%8E%AF%E5%A2%83",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 환경",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=49093"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 环境",
+                "url": "https://zh.wiktionary.org/wiki/%E7%8E%AF%E5%A2%83"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 環境",
+                "url": "https://ja.wiktionary.org/wiki/%E7%92%B0%E5%A2%83"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "environment-ko",
+      "conceptId": "environment",
+      "word": "환경",
+      "language": "ko",
+      "translations": {
+        "zh": "环境",
+        "en": "environment",
+        "ja": "環境",
+        "ko": "환경"
+      },
+      "englishTranslation": "environment",
+      "romanization": {
+        "ko": "hwangyeong"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "environment",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "life-zh",
+      "conceptId": "life",
+      "word": "生活",
+      "language": "zh",
+      "translations": {
+        "zh": "生活",
+        "en": "life",
+        "ja": "生活",
+        "ko": "생활"
+      },
+      "englishTranslation": "life",
+      "pinyin": "shēnghuó",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "life",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-life-zh-ja",
+          "sourceWordId": "life-zh",
+          "targetWordId": "life-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 생활",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=74183"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 生活",
+                "url": "https://zh.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 生活",
+                "url": "https://ja.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-life-zh-ko",
+          "sourceWordId": "life-zh",
+          "targetWordId": "life-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 생활",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=74183"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 生活",
+                "url": "https://zh.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 生活",
+                "url": "https://ja.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "life-ja",
+      "conceptId": "life",
+      "word": "生活",
+      "language": "ja",
+      "translations": {
+        "zh": "生活",
+        "en": "life",
+        "ja": "生活",
+        "ko": "생활"
+      },
+      "englishTranslation": "life",
+      "reading": "せいかつ",
+      "romanization": {
+        "ja": "seikatsu"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "life",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-life-ja-ko",
+          "sourceWordId": "life-ja",
+          "targetWordId": "life-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 생활",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=74183"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 生活",
+                "url": "https://zh.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 生活",
+                "url": "https://ja.wiktionary.org/wiki/%E7%94%9F%E6%B4%BB"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "life-ko",
+      "conceptId": "life",
+      "word": "생활",
+      "language": "ko",
+      "translations": {
+        "zh": "生活",
+        "en": "life",
+        "ja": "生活",
+        "ko": "생활"
+      },
+      "englishTranslation": "life",
+      "romanization": {
+        "ko": "saenghwal"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "life",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "traffic-zh",
+      "conceptId": "traffic",
+      "word": "交通",
+      "language": "zh",
+      "translations": {
+        "zh": "交通",
+        "en": "traffic",
+        "ja": "交通",
+        "ko": "교통"
+      },
+      "englishTranslation": "traffic",
+      "pinyin": "jiāotōng",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "traffic",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-traffic-zh-ja",
+          "sourceWordId": "traffic-zh",
+          "targetWordId": "traffic-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 교통",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=64469"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 交通",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 交通",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-traffic-zh-ko",
+          "sourceWordId": "traffic-zh",
+          "targetWordId": "traffic-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 교통",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=64469"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 交通",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 交通",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "traffic-ja",
+      "conceptId": "traffic",
+      "word": "交通",
+      "language": "ja",
+      "translations": {
+        "zh": "交通",
+        "en": "traffic",
+        "ja": "交通",
+        "ko": "교통"
+      },
+      "englishTranslation": "traffic",
+      "reading": "こうつう",
+      "romanization": {
+        "ja": "koutsuu"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "traffic",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-traffic-ja-ko",
+          "sourceWordId": "traffic-ja",
+          "targetWordId": "traffic-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 교통",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=64469"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 交通",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 交通",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BA%A4%E9%80%9A"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "traffic-ko",
+      "conceptId": "traffic",
+      "word": "교통",
+      "language": "ko",
+      "translations": {
+        "zh": "交通",
+        "en": "traffic",
+        "ja": "交通",
+        "ko": "교통"
+      },
+      "englishTranslation": "traffic",
+      "romanization": {
+        "ko": "gyotong"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "traffic",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "enterprise-zh",
+      "conceptId": "enterprise",
+      "word": "企业",
+      "language": "zh",
+      "translations": {
+        "zh": "企业",
+        "en": "enterprise",
+        "ja": "企業",
+        "ko": "기업"
+      },
+      "englishTranslation": "enterprise",
+      "pinyin": "qǐyè",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "enterprise",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-enterprise-zh-ja",
+          "sourceWordId": "enterprise-zh",
+          "targetWordId": "enterprise-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BC%81%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 기업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=32514"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 企业",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BC%81%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 企業",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BC%81%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-enterprise-zh-ko",
+          "sourceWordId": "enterprise-zh",
+          "targetWordId": "enterprise-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BC%81%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 기업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=32514"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 企业",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BC%81%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 企業",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BC%81%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-ja",
+      "conceptId": "enterprise",
+      "word": "企業",
+      "language": "ja",
+      "translations": {
+        "zh": "企业",
+        "en": "enterprise",
+        "ja": "企業",
+        "ko": "기업"
+      },
+      "englishTranslation": "enterprise",
+      "reading": "きぎょう",
+      "romanization": {
+        "ja": "kigyou"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "enterprise",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-enterprise-ja-ko",
+          "sourceWordId": "enterprise-ja",
+          "targetWordId": "enterprise-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BC%81%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 기업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=32514"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 企业",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BC%81%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 企業",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BC%81%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-ko",
+      "conceptId": "enterprise",
+      "word": "기업",
+      "language": "ko",
+      "translations": {
+        "zh": "企业",
+        "en": "enterprise",
+        "ja": "企業",
+        "ko": "기업"
+      },
+      "englishTranslation": "enterprise",
+      "romanization": {
+        "ko": "gieop"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "enterprise",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "investment-zh",
+      "conceptId": "investment",
+      "word": "投资",
+      "language": "zh",
+      "translations": {
+        "zh": "投资",
+        "en": "investment",
+        "ja": "投資",
+        "ko": "투자"
+      },
+      "englishTranslation": "investment",
+      "pinyin": "tóuzī",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "investment",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-investment-zh-ja",
+          "sourceWordId": "investment-zh",
+          "targetWordId": "investment-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%8A%95%E8%B5%84",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 투자",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=81615"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 投资",
+                "url": "https://zh.wiktionary.org/wiki/%E6%8A%95%E8%B5%84"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 投資",
+                "url": "https://ja.wiktionary.org/wiki/%E6%8A%95%E8%B3%87"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-investment-zh-ko",
+          "sourceWordId": "investment-zh",
+          "targetWordId": "investment-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%8A%95%E8%B5%84",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 투자",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=81615"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 投资",
+                "url": "https://zh.wiktionary.org/wiki/%E6%8A%95%E8%B5%84"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 投資",
+                "url": "https://ja.wiktionary.org/wiki/%E6%8A%95%E8%B3%87"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "investment-ja",
+      "conceptId": "investment",
+      "word": "投資",
+      "language": "ja",
+      "translations": {
+        "zh": "投资",
+        "en": "investment",
+        "ja": "投資",
+        "ko": "투자"
+      },
+      "englishTranslation": "investment",
+      "reading": "とうし",
+      "romanization": {
+        "ja": "toushi"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "investment",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-investment-ja-ko",
+          "sourceWordId": "investment-ja",
+          "targetWordId": "investment-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%8A%95%E8%B5%84",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 투자",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=81615"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 投资",
+                "url": "https://zh.wiktionary.org/wiki/%E6%8A%95%E8%B5%84"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 投資",
+                "url": "https://ja.wiktionary.org/wiki/%E6%8A%95%E8%B3%87"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "investment-ko",
+      "conceptId": "investment",
+      "word": "투자",
+      "language": "ko",
+      "translations": {
+        "zh": "投资",
+        "en": "investment",
+        "ja": "投資",
+        "ko": "투자"
+      },
+      "englishTranslation": "investment",
+      "romanization": {
+        "ko": "tuja"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "investment",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "value-zh",
+      "conceptId": "value",
+      "word": "价值",
+      "language": "zh",
+      "translations": {
+        "zh": "价值",
+        "en": "value",
+        "ja": "価値",
+        "ko": "가치"
+      },
+      "englishTranslation": "value",
+      "pinyin": "jiàzhí",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "value",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-value-zh-ja",
+          "sourceWordId": "value-zh",
+          "targetWordId": "value-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BB%B7%E5%80%BC",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 가치",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=15090"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 价值",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BB%B7%E5%80%BC"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 価値",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BE%A1%E5%80%A4"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-value-zh-ko",
+          "sourceWordId": "value-zh",
+          "targetWordId": "value-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BB%B7%E5%80%BC",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 가치",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=15090"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 价值",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BB%B7%E5%80%BC"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 価値",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BE%A1%E5%80%A4"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "value-ja",
+      "conceptId": "value",
+      "word": "価値",
+      "language": "ja",
+      "translations": {
+        "zh": "价值",
+        "en": "value",
+        "ja": "価値",
+        "ko": "가치"
+      },
+      "englishTranslation": "value",
+      "reading": "かち",
+      "romanization": {
+        "ja": "kachi"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "value",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-value-ja-ko",
+          "sourceWordId": "value-ja",
+          "targetWordId": "value-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BB%B7%E5%80%BC",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 가치",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=15090"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 价值",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BB%B7%E5%80%BC"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 価値",
+                "url": "https://ja.wiktionary.org/wiki/%E4%BE%A1%E5%80%A4"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "value-ko",
+      "conceptId": "value",
+      "word": "가치",
+      "language": "ko",
+      "translations": {
+        "zh": "价值",
+        "en": "value",
+        "ja": "価値",
+        "ko": "가치"
+      },
+      "englishTranslation": "value",
+      "romanization": {
+        "ko": "gachi"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "value",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "problem-zh",
+      "conceptId": "problem",
+      "word": "问题",
+      "language": "zh",
+      "translations": {
+        "zh": "问题",
+        "en": "problem",
+        "ja": "問題",
+        "ko": "문제"
+      },
+      "englishTranslation": "problem",
+      "pinyin": "wèntí",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "problem",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-problem-zh-ja",
+          "sourceWordId": "problem-zh",
+          "targetWordId": "problem-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E9%97%AE%E9%A2%98",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 문제",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=66246"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 问题",
+                "url": "https://zh.wiktionary.org/wiki/%E9%97%AE%E9%A2%98"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 問題",
+                "url": "https://ja.wiktionary.org/wiki/%E5%95%8F%E9%A1%8C"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-problem-zh-ko",
+          "sourceWordId": "problem-zh",
+          "targetWordId": "problem-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E9%97%AE%E9%A2%98",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 문제",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=66246"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 问题",
+                "url": "https://zh.wiktionary.org/wiki/%E9%97%AE%E9%A2%98"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 問題",
+                "url": "https://ja.wiktionary.org/wiki/%E5%95%8F%E9%A1%8C"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "problem-ja",
+      "conceptId": "problem",
+      "word": "問題",
+      "language": "ja",
+      "translations": {
+        "zh": "问题",
+        "en": "problem",
+        "ja": "問題",
+        "ko": "문제"
+      },
+      "englishTranslation": "problem",
+      "reading": "もんだい",
+      "romanization": {
+        "ja": "mondai"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "problem",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-problem-ja-ko",
+          "sourceWordId": "problem-ja",
+          "targetWordId": "problem-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E9%97%AE%E9%A2%98",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 문제",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=66246"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 问题",
+                "url": "https://zh.wiktionary.org/wiki/%E9%97%AE%E9%A2%98"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 問題",
+                "url": "https://ja.wiktionary.org/wiki/%E5%95%8F%E9%A1%8C"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "problem-ko",
+      "conceptId": "problem",
+      "word": "문제",
+      "language": "ko",
+      "translations": {
+        "zh": "问题",
+        "en": "problem",
+        "ja": "問題",
+        "ko": "문제"
+      },
+      "englishTranslation": "problem",
+      "romanization": {
+        "ko": "munje"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "problem",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "method-zh",
+      "conceptId": "method",
+      "word": "方法",
+      "language": "zh",
+      "translations": {
+        "zh": "方法",
+        "en": "method",
+        "ja": "方法",
+        "ko": "방법"
+      },
+      "englishTranslation": "method",
+      "pinyin": "fāngfǎ",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "method",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-method-zh-ja",
+          "sourceWordId": "method-zh",
+          "targetWordId": "method-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%96%B9%E6%B3%95",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 방법",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=65531"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 方法",
+                "url": "https://zh.wiktionary.org/wiki/%E6%96%B9%E6%B3%95"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 方法",
+                "url": "https://ja.wiktionary.org/wiki/%E6%96%B9%E6%B3%95"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-method-zh-ko",
+          "sourceWordId": "method-zh",
+          "targetWordId": "method-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%96%B9%E6%B3%95",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 방법",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=65531"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 方法",
+                "url": "https://zh.wiktionary.org/wiki/%E6%96%B9%E6%B3%95"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 方法",
+                "url": "https://ja.wiktionary.org/wiki/%E6%96%B9%E6%B3%95"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "method-ja",
+      "conceptId": "method",
+      "word": "方法",
+      "language": "ja",
+      "translations": {
+        "zh": "方法",
+        "en": "method",
+        "ja": "方法",
+        "ko": "방법"
+      },
+      "englishTranslation": "method",
+      "reading": "ほうほう",
+      "romanization": {
+        "ja": "houhou"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "method",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-method-ja-ko",
+          "sourceWordId": "method-ja",
+          "targetWordId": "method-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%96%B9%E6%B3%95",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 방법",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=65531"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 方法",
+                "url": "https://zh.wiktionary.org/wiki/%E6%96%B9%E6%B3%95"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 方法",
+                "url": "https://ja.wiktionary.org/wiki/%E6%96%B9%E6%B3%95"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "method-ko",
+      "conceptId": "method",
+      "word": "방법",
+      "language": "ko",
+      "translations": {
+        "zh": "方法",
+        "en": "method",
+        "ja": "方法",
+        "ko": "방법"
+      },
+      "englishTranslation": "method",
+      "romanization": {
+        "ko": "bangbeop"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "method",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "result-zh",
+      "conceptId": "result",
+      "word": "结果",
+      "language": "zh",
+      "translations": {
+        "zh": "结果",
+        "en": "result",
+        "ja": "結果",
+        "ko": "결과"
+      },
+      "englishTranslation": "result",
+      "pinyin": "jiéguǒ",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "result",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-result-zh-ja",
+          "sourceWordId": "result-zh",
+          "targetWordId": "result-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%BB%93%E6%9E%9C",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 결과",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=60093"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 结果",
+                "url": "https://zh.wiktionary.org/wiki/%E7%BB%93%E6%9E%9C"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 結果",
+                "url": "https://ja.wiktionary.org/wiki/%E7%B5%90%E6%9E%9C"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-result-zh-ko",
+          "sourceWordId": "result-zh",
+          "targetWordId": "result-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%BB%93%E6%9E%9C",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 결과",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=60093"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 结果",
+                "url": "https://zh.wiktionary.org/wiki/%E7%BB%93%E6%9E%9C"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 結果",
+                "url": "https://ja.wiktionary.org/wiki/%E7%B5%90%E6%9E%9C"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "result-ja",
+      "conceptId": "result",
+      "word": "結果",
+      "language": "ja",
+      "translations": {
+        "zh": "结果",
+        "en": "result",
+        "ja": "結果",
+        "ko": "결과"
+      },
+      "englishTranslation": "result",
+      "reading": "けっか",
+      "romanization": {
+        "ja": "kekka"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "result",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-result-ja-ko",
+          "sourceWordId": "result-ja",
+          "targetWordId": "result-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%BB%93%E6%9E%9C",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 결과",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=60093"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 结果",
+                "url": "https://zh.wiktionary.org/wiki/%E7%BB%93%E6%9E%9C"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 結果",
+                "url": "https://ja.wiktionary.org/wiki/%E7%B5%90%E6%9E%9C"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "result-ko",
+      "conceptId": "result",
+      "word": "결과",
+      "language": "ko",
+      "translations": {
+        "zh": "结果",
+        "en": "result",
+        "ja": "結果",
+        "ko": "결과"
+      },
+      "englishTranslation": "result",
+      "romanization": {
+        "ko": "gyeolgwa"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "result",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "habit-zh",
+      "conceptId": "habit",
+      "word": "习惯",
+      "language": "zh",
+      "translations": {
+        "zh": "习惯",
+        "en": "habit",
+        "ja": "習慣",
+        "ko": "습관"
+      },
+      "englishTranslation": "habit",
+      "pinyin": "xíguàn",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "habit",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-habit-zh-ja",
+          "sourceWordId": "habit-zh",
+          "targetWordId": "habit-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%B9%A0%E6%83%AF",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 습관",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=65105"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 习惯",
+                "url": "https://zh.wiktionary.org/wiki/%E4%B9%A0%E6%83%AF"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 習慣",
+                "url": "https://ja.wiktionary.org/wiki/%E7%BF%92%E6%85%A3"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-habit-zh-ko",
+          "sourceWordId": "habit-zh",
+          "targetWordId": "habit-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%B9%A0%E6%83%AF",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 습관",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=65105"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 习惯",
+                "url": "https://zh.wiktionary.org/wiki/%E4%B9%A0%E6%83%AF"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 習慣",
+                "url": "https://ja.wiktionary.org/wiki/%E7%BF%92%E6%85%A3"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "habit-ja",
+      "conceptId": "habit",
+      "word": "習慣",
+      "language": "ja",
+      "translations": {
+        "zh": "习惯",
+        "en": "habit",
+        "ja": "習慣",
+        "ko": "습관"
+      },
+      "englishTranslation": "habit",
+      "reading": "しゅうかん",
+      "romanization": {
+        "ja": "shuukan"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "habit",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-habit-ja-ko",
+          "sourceWordId": "habit-ja",
+          "targetWordId": "habit-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%B9%A0%E6%83%AF",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 습관",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=65105"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 习惯",
+                "url": "https://zh.wiktionary.org/wiki/%E4%B9%A0%E6%83%AF"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 習慣",
+                "url": "https://ja.wiktionary.org/wiki/%E7%BF%92%E6%85%A3"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "habit-ko",
+      "conceptId": "habit",
+      "word": "습관",
+      "language": "ko",
+      "translations": {
+        "zh": "习惯",
+        "en": "habit",
+        "ja": "習慣",
+        "ko": "습관"
+      },
+      "englishTranslation": "habit",
+      "romanization": {
+        "ko": "seupgwan"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "habit",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "attitude-zh",
+      "conceptId": "attitude",
+      "word": "态度",
+      "language": "zh",
+      "translations": {
+        "zh": "态度",
+        "en": "attitude",
+        "ja": "態度",
+        "ko": "태도"
+      },
+      "englishTranslation": "attitude",
+      "pinyin": "tàidù",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "attitude",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-attitude-zh-ja",
+          "sourceWordId": "attitude-zh",
+          "targetWordId": "attitude-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%80%81%E5%BA%A6",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 태도",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=62414"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 态度",
+                "url": "https://zh.wiktionary.org/wiki/%E6%80%81%E5%BA%A6"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 態度",
+                "url": "https://ja.wiktionary.org/wiki/%E6%85%8B%E5%BA%A6"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-attitude-zh-ko",
+          "sourceWordId": "attitude-zh",
+          "targetWordId": "attitude-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%80%81%E5%BA%A6",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 태도",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=62414"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 态度",
+                "url": "https://zh.wiktionary.org/wiki/%E6%80%81%E5%BA%A6"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 態度",
+                "url": "https://ja.wiktionary.org/wiki/%E6%85%8B%E5%BA%A6"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "attitude-ja",
+      "conceptId": "attitude",
+      "word": "態度",
+      "language": "ja",
+      "translations": {
+        "zh": "态度",
+        "en": "attitude",
+        "ja": "態度",
+        "ko": "태도"
+      },
+      "englishTranslation": "attitude",
+      "reading": "たいど",
+      "romanization": {
+        "ja": "taido"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "attitude",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-attitude-ja-ko",
+          "sourceWordId": "attitude-ja",
+          "targetWordId": "attitude-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%80%81%E5%BA%A6",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 태도",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=62414"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 态度",
+                "url": "https://zh.wiktionary.org/wiki/%E6%80%81%E5%BA%A6"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 態度",
+                "url": "https://ja.wiktionary.org/wiki/%E6%85%8B%E5%BA%A6"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "attitude-ko",
+      "conceptId": "attitude",
+      "word": "태도",
+      "language": "ko",
+      "translations": {
+        "zh": "态度",
+        "en": "attitude",
+        "ja": "態度",
+        "ko": "태도"
+      },
+      "englishTranslation": "attitude",
+      "romanization": {
+        "ko": "taedo"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "attitude",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "goal-zh",
+      "conceptId": "goal",
+      "word": "目标",
+      "language": "zh",
+      "translations": {
+        "zh": "目标",
+        "en": "goal",
+        "ja": "目標",
+        "ko": "목표"
+      },
+      "englishTranslation": "goal",
+      "pinyin": "mùbiāo",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "goal",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-goal-zh-ja",
+          "sourceWordId": "goal-zh",
+          "targetWordId": "goal-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%9B%AE%E6%A0%87",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 목표",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=69467"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 目标",
+                "url": "https://zh.wiktionary.org/wiki/%E7%9B%AE%E6%A0%87"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 目標",
+                "url": "https://ja.wiktionary.org/wiki/%E7%9B%AE%E6%A8%99"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-goal-zh-ko",
+          "sourceWordId": "goal-zh",
+          "targetWordId": "goal-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%9B%AE%E6%A0%87",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 목표",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=69467"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 目标",
+                "url": "https://zh.wiktionary.org/wiki/%E7%9B%AE%E6%A0%87"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 目標",
+                "url": "https://ja.wiktionary.org/wiki/%E7%9B%AE%E6%A8%99"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "goal-ja",
+      "conceptId": "goal",
+      "word": "目標",
+      "language": "ja",
+      "translations": {
+        "zh": "目标",
+        "en": "goal",
+        "ja": "目標",
+        "ko": "목표"
+      },
+      "englishTranslation": "goal",
+      "reading": "もくひょう",
+      "romanization": {
+        "ja": "mokuhyou"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "goal",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-goal-ja-ko",
+          "sourceWordId": "goal-ja",
+          "targetWordId": "goal-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%9B%AE%E6%A0%87",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 목표",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=69467"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 目标",
+                "url": "https://zh.wiktionary.org/wiki/%E7%9B%AE%E6%A0%87"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 目標",
+                "url": "https://ja.wiktionary.org/wiki/%E7%9B%AE%E6%A8%99"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "goal-ko",
+      "conceptId": "goal",
+      "word": "목표",
+      "language": "ko",
+      "translations": {
+        "zh": "目标",
+        "en": "goal",
+        "ja": "目標",
+        "ko": "목표"
+      },
+      "englishTranslation": "goal",
+      "romanization": {
+        "ko": "mokpyo"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "goal",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "power-zh",
+      "conceptId": "power",
+      "word": "权力",
+      "language": "zh",
+      "translations": {
+        "zh": "权力",
+        "en": "power",
+        "ja": "権力",
+        "ko": "권력"
+      },
+      "englishTranslation": "power",
+      "pinyin": "quánlì",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "power",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-power-zh-ja",
+          "sourceWordId": "power-zh",
+          "targetWordId": "power-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%9D%83%E5%8A%9B",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 권력",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=37314"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 权力",
+                "url": "https://zh.wiktionary.org/wiki/%E6%9D%83%E5%8A%9B"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 権力",
+                "url": "https://ja.wiktionary.org/wiki/%E6%A8%A9%E5%8A%9B"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-power-zh-ko",
+          "sourceWordId": "power-zh",
+          "targetWordId": "power-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%9D%83%E5%8A%9B",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 권력",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=37314"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 权力",
+                "url": "https://zh.wiktionary.org/wiki/%E6%9D%83%E5%8A%9B"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 権力",
+                "url": "https://ja.wiktionary.org/wiki/%E6%A8%A9%E5%8A%9B"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "power-ja",
+      "conceptId": "power",
+      "word": "権力",
+      "language": "ja",
+      "translations": {
+        "zh": "权力",
+        "en": "power",
+        "ja": "権力",
+        "ko": "권력"
+      },
+      "englishTranslation": "power",
+      "reading": "けんりょく",
+      "romanization": {
+        "ja": "kenryoku"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "power",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-power-ja-ko",
+          "sourceWordId": "power-ja",
+          "targetWordId": "power-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E6%9D%83%E5%8A%9B",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 권력",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=37314"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 权力",
+                "url": "https://zh.wiktionary.org/wiki/%E6%9D%83%E5%8A%9B"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 権力",
+                "url": "https://ja.wiktionary.org/wiki/%E6%A8%A9%E5%8A%9B"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "power-ko",
+      "conceptId": "power",
+      "word": "권력",
+      "language": "ko",
+      "translations": {
+        "zh": "权力",
+        "en": "power",
+        "ja": "権力",
+        "ko": "권력"
+      },
+      "englishTranslation": "power",
+      "romanization": {
+        "ko": "gwollyeok"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "power",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "industry-zh",
+      "conceptId": "industry",
+      "word": "产业",
+      "language": "zh",
+      "translations": {
+        "zh": "产业",
+        "en": "industry",
+        "ja": "産業",
+        "ko": "산업"
+      },
+      "englishTranslation": "industry",
+      "pinyin": "chǎnyè",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "industry",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-industry-zh-ja",
+          "sourceWordId": "industry-zh",
+          "targetWordId": "industry-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BA%A7%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 산업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=15676"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 产业",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BA%A7%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 産業",
+                "url": "https://ja.wiktionary.org/wiki/%E7%94%A3%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-industry-zh-ko",
+          "sourceWordId": "industry-zh",
+          "targetWordId": "industry-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BA%A7%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 산업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=15676"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 产业",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BA%A7%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 産業",
+                "url": "https://ja.wiktionary.org/wiki/%E7%94%A3%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "industry-ja",
+      "conceptId": "industry",
+      "word": "産業",
+      "language": "ja",
+      "translations": {
+        "zh": "产业",
+        "en": "industry",
+        "ja": "産業",
+        "ko": "산업"
+      },
+      "englishTranslation": "industry",
+      "reading": "さんぎょう",
+      "romanization": {
+        "ja": "sangyou"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "industry",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-industry-ja-ko",
+          "sourceWordId": "industry-ja",
+          "targetWordId": "industry-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E4%BA%A7%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 산업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=15676"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 产业",
+                "url": "https://zh.wiktionary.org/wiki/%E4%BA%A7%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 産業",
+                "url": "https://ja.wiktionary.org/wiki/%E7%94%A3%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "industry-ko",
+      "conceptId": "industry",
+      "word": "산업",
+      "language": "ko",
+      "translations": {
+        "zh": "产业",
+        "en": "industry",
+        "ja": "産業",
+        "ko": "산업"
+      },
+      "englishTranslation": "industry",
+      "romanization": {
+        "ko": "saneop"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "industry",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "finance-zh",
+      "conceptId": "finance",
+      "word": "金融",
+      "language": "zh",
+      "translations": {
+        "zh": "金融",
+        "en": "finance",
+        "ja": "金融",
+        "ko": "금융"
+      },
+      "englishTranslation": "finance",
+      "pinyin": "jīnróng",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "finance",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-finance-zh-ja",
+          "sourceWordId": "finance-zh",
+          "targetWordId": "finance-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E9%87%91%E8%9E%8D",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 금융",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=39903"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 金融",
+                "url": "https://zh.wiktionary.org/wiki/%E9%87%91%E8%9E%8D"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 金融",
+                "url": "https://ja.wiktionary.org/wiki/%E9%87%91%E8%9E%8D"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-finance-zh-ko",
+          "sourceWordId": "finance-zh",
+          "targetWordId": "finance-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E9%87%91%E8%9E%8D",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 금융",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=39903"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 金融",
+                "url": "https://zh.wiktionary.org/wiki/%E9%87%91%E8%9E%8D"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 金融",
+                "url": "https://ja.wiktionary.org/wiki/%E9%87%91%E8%9E%8D"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "finance-ja",
+      "conceptId": "finance",
+      "word": "金融",
+      "language": "ja",
+      "translations": {
+        "zh": "金融",
+        "en": "finance",
+        "ja": "金融",
+        "ko": "금융"
+      },
+      "englishTranslation": "finance",
+      "reading": "きんゆう",
+      "romanization": {
+        "ja": "kinyuu"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "finance",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-finance-ja-ko",
+          "sourceWordId": "finance-ja",
+          "targetWordId": "finance-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E9%87%91%E8%9E%8D",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 금융",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=39903"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 金融",
+                "url": "https://zh.wiktionary.org/wiki/%E9%87%91%E8%9E%8D"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 金融",
+                "url": "https://ja.wiktionary.org/wiki/%E9%87%91%E8%9E%8D"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "finance-ko",
+      "conceptId": "finance",
+      "word": "금융",
+      "language": "ko",
+      "translations": {
+        "zh": "金融",
+        "en": "finance",
+        "ja": "金融",
+        "ko": "금융"
+      },
+      "englishTranslation": "finance",
+      "romanization": {
+        "ko": "geumyung"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "finance",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "agriculture-zh",
+      "conceptId": "agriculture",
+      "word": "农业",
+      "language": "zh",
+      "translations": {
+        "zh": "农业",
+        "en": "agriculture",
+        "ja": "農業",
+        "ko": "농업"
+      },
+      "englishTranslation": "agriculture",
+      "pinyin": "nóngyè",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "agriculture",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-agriculture-zh-ja",
+          "sourceWordId": "agriculture-zh",
+          "targetWordId": "agriculture-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E5%86%9C%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 농업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=62413"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 农业",
+                "url": "https://zh.wiktionary.org/wiki/%E5%86%9C%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 農業",
+                "url": "https://ja.wiktionary.org/wiki/%E8%BE%B2%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-agriculture-zh-ko",
+          "sourceWordId": "agriculture-zh",
+          "targetWordId": "agriculture-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E5%86%9C%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 농업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=62413"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 农业",
+                "url": "https://zh.wiktionary.org/wiki/%E5%86%9C%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 農業",
+                "url": "https://ja.wiktionary.org/wiki/%E8%BE%B2%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "agriculture-ja",
+      "conceptId": "agriculture",
+      "word": "農業",
+      "language": "ja",
+      "translations": {
+        "zh": "农业",
+        "en": "agriculture",
+        "ja": "農業",
+        "ko": "농업"
+      },
+      "englishTranslation": "agriculture",
+      "reading": "のうぎょう",
+      "romanization": {
+        "ja": "nougyou"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "agriculture",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-agriculture-ja-ko",
+          "sourceWordId": "agriculture-ja",
+          "targetWordId": "agriculture-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E5%86%9C%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 농업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=62413"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 农业",
+                "url": "https://zh.wiktionary.org/wiki/%E5%86%9C%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 農業",
+                "url": "https://ja.wiktionary.org/wiki/%E8%BE%B2%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "agriculture-ko",
+      "conceptId": "agriculture",
+      "word": "농업",
+      "language": "ko",
+      "translations": {
+        "zh": "农业",
+        "en": "agriculture",
+        "ja": "農業",
+        "ko": "농업"
+      },
+      "englishTranslation": "agriculture",
+      "romanization": {
+        "ko": "nongeop"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "agriculture",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "manufacturing-zh",
+      "conceptId": "manufacturing",
+      "word": "工业",
+      "language": "zh",
+      "translations": {
+        "zh": "工业",
+        "en": "manufacturing",
+        "ja": "工業",
+        "ko": "공업"
+      },
+      "englishTranslation": "manufacturing",
+      "pinyin": "gōngyè",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "manufacturing",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-manufacturing-zh-ja",
+          "sourceWordId": "manufacturing-zh",
+          "targetWordId": "manufacturing-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E5%B7%A5%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 공업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=19460"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 工业",
+                "url": "https://zh.wiktionary.org/wiki/%E5%B7%A5%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 工業",
+                "url": "https://ja.wiktionary.org/wiki/%E5%B7%A5%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-manufacturing-zh-ko",
+          "sourceWordId": "manufacturing-zh",
+          "targetWordId": "manufacturing-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E5%B7%A5%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 공업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=19460"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 工业",
+                "url": "https://zh.wiktionary.org/wiki/%E5%B7%A5%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 工業",
+                "url": "https://ja.wiktionary.org/wiki/%E5%B7%A5%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-ja",
+      "conceptId": "manufacturing",
+      "word": "工業",
+      "language": "ja",
+      "translations": {
+        "zh": "工业",
+        "en": "manufacturing",
+        "ja": "工業",
+        "ko": "공업"
+      },
+      "englishTranslation": "manufacturing",
+      "reading": "こうぎょう",
+      "romanization": {
+        "ja": "kougyou"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "manufacturing",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-manufacturing-ja-ko",
+          "sourceWordId": "manufacturing-ja",
+          "targetWordId": "manufacturing-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E5%B7%A5%E4%B8%9A",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 공업",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=19460"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 工业",
+                "url": "https://zh.wiktionary.org/wiki/%E5%B7%A5%E4%B8%9A"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 工業",
+                "url": "https://ja.wiktionary.org/wiki/%E5%B7%A5%E6%A5%AD"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-ko",
+      "conceptId": "manufacturing",
+      "word": "공업",
+      "language": "ko",
+      "translations": {
+        "zh": "工业",
+        "en": "manufacturing",
+        "ja": "工業",
+        "ko": "공업"
+      },
+      "englishTranslation": "manufacturing",
+      "romanization": {
+        "ko": "gongeop"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "manufacturing",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "petroleum-zh",
+      "conceptId": "petroleum",
+      "word": "石油",
+      "language": "zh",
+      "translations": {
+        "zh": "石油",
+        "en": "petroleum",
+        "ja": "石油",
+        "ko": "석유"
+      },
+      "englishTranslation": "petroleum",
+      "pinyin": "shíyóu",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "petroleum",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-petroleum-zh-ja",
+          "sourceWordId": "petroleum-zh",
+          "targetWordId": "petroleum-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 석유",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=78157"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 石油",
+                "url": "https://zh.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 石油",
+                "url": "https://ja.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-petroleum-zh-ko",
+          "sourceWordId": "petroleum-zh",
+          "targetWordId": "petroleum-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 석유",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=78157"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 石油",
+                "url": "https://zh.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 石油",
+                "url": "https://ja.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "petroleum-ja",
+      "conceptId": "petroleum",
+      "word": "石油",
+      "language": "ja",
+      "translations": {
+        "zh": "石油",
+        "en": "petroleum",
+        "ja": "石油",
+        "ko": "석유"
+      },
+      "englishTranslation": "petroleum",
+      "reading": "せきゆ",
+      "romanization": {
+        "ja": "sekiyu"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "petroleum",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-petroleum-ja-ko",
+          "sourceWordId": "petroleum-ja",
+          "targetWordId": "petroleum-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 석유",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=78157"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 石油",
+                "url": "https://zh.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 石油",
+                "url": "https://ja.wiktionary.org/wiki/%E7%9F%B3%E6%B2%B9"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "petroleum-ko",
+      "conceptId": "petroleum",
+      "word": "석유",
+      "language": "ko",
+      "translations": {
+        "zh": "石油",
+        "en": "petroleum",
+        "ja": "石油",
+        "ko": "석유"
+      },
+      "englishTranslation": "petroleum",
+      "romanization": {
+        "ko": "seogyu"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "petroleum",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
+    },
+    {
+      "id": "resources-zh",
+      "conceptId": "resources",
+      "word": "资源",
+      "language": "zh",
+      "translations": {
+        "zh": "资源",
+        "en": "resources",
+        "ja": "資源",
+        "ko": "자원"
+      },
+      "englishTranslation": "resources",
+      "pinyin": "zīyuán",
+      "romanization": {},
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "resources",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-resources-zh-ja",
+          "sourceWordId": "resources-zh",
+          "targetWordId": "resources-ja",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E8%B5%84%E6%BA%90",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 자원",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=24793"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 资源",
+                "url": "https://zh.wiktionary.org/wiki/%E8%B5%84%E6%BA%90"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 資源",
+                "url": "https://ja.wiktionary.org/wiki/%E8%B3%87%E6%BA%90"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "candidate-equivalent-resources-zh-ko",
+          "sourceWordId": "resources-zh",
+          "targetWordId": "resources-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E8%B5%84%E6%BA%90",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 자원",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=24793"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 资源",
+                "url": "https://zh.wiktionary.org/wiki/%E8%B5%84%E6%BA%90"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 資源",
+                "url": "https://ja.wiktionary.org/wiki/%E8%B3%87%E6%BA%90"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "resources-ja",
+      "conceptId": "resources",
+      "word": "資源",
+      "language": "ja",
+      "translations": {
+        "zh": "资源",
+        "en": "resources",
+        "ja": "資源",
+        "ko": "자원"
+      },
+      "englishTranslation": "resources",
+      "reading": "しげん",
+      "romanization": {
+        "ja": "shigen"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "resources",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": [
+        {
+          "id": "candidate-equivalent-resources-ja-ko",
+          "sourceWordId": "resources-ja",
+          "targetWordId": "resources-ko",
+          "productRelationType": "equivalent",
+          "rawRelationType": "dictionary-entry-comparison",
+          "directionality": "symmetric",
+          "source": {
+            "label": "KRDict entry + Wiktionary entry comparison; deadline batch",
+            "url": "https://zh.wiktionary.org/wiki/%E8%B5%84%E6%BA%90",
+            "sources": [
+              {
+                "language": "ko",
+                "label": "KRDict: 자원",
+                "url": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=24793"
+              },
+              {
+                "language": "zh",
+                "label": "ZH Wiktionary: 资源",
+                "url": "https://zh.wiktionary.org/wiki/%E8%B5%84%E6%BA%90"
+              },
+              {
+                "language": "ja",
+                "label": "JA Wiktionary: 資源",
+                "url": "https://ja.wiktionary.org/wiki/%E8%B3%87%E6%BA%90"
+              }
+            ]
+          },
+          "description": "2026-11-01 deadline batch; bulk-verified without individual review.",
+          "verificationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "id": "resources-ko",
+      "conceptId": "resources",
+      "word": "자원",
+      "language": "ko",
+      "translations": {
+        "zh": "资源",
+        "en": "resources",
+        "ja": "資源",
+        "ko": "자원"
+      },
+      "englishTranslation": "resources",
+      "romanization": {
+        "ko": "jawon"
+      },
+      "partsOfSpeech": {
+        "zh": "名词",
+        "en": "noun",
+        "ja": "名詞",
+        "ko": "명사"
+      },
+      "meaning": "resources",
+      "source": null,
+      "verificationStatus": "unverified",
+      "connections": []
     }
   ]
 }
