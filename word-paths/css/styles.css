@@ -244,7 +244,6 @@ button { -webkit-tap-highlight-color: transparent; }
 .graph-heading { display: flex; justify-content: space-between; align-items: end; margin: 25px 3px 11px; }
 .graph-heading h2 { margin: 0 0 3px; font-size: 15px; font-weight: 600; letter-spacing: -.02em; }
 .graph-heading p { margin: 0; color: #92978f; font-size: 10px; }
-.graph-heading .dataset-stats { margin-top: 3px; color: #a0a59e; font-size: 9px; }
 .development-notice {
   margin: 0 0 12px;
   padding: 9px 12px;

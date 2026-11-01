@@ -23,8 +23,6 @@ const searchLanguageOptions = [...document.querySelectorAll("[data-search-langua
 const languageSelect = document.querySelector("#language");
 const randomButton = document.querySelector("#random");
 const detailsPanel = document.querySelector("#details");
-const resultCount = document.querySelector("#result-count");
-const datasetStats = document.querySelector("#dataset-stats");
 const developmentNotice = document.querySelector("#development-notice");
 const trail = document.querySelector("#trail");
 const trailBack = document.querySelector("#trail-back");
@@ -102,47 +100,6 @@ function getConnections(word, activeTypes = state.activeTypes, data = state.data
     }
   }
   return [...connections.values()];
-}
-
-function countDisplayableRelationships(data) {
-  const wordIds = new Set(data.words.map((word) => word.id));
-  const relationshipIds = new Map();
-  const counts = { total: 0, verified: 0, equivalents: 0, semantic: 0 };
-  for (const word of data.words) {
-    for (const connection of word.connections) {
-      if (connection.verificationStatus === "verified" &&
-          connection.productRelationType &&
-          Object.prototype.hasOwnProperty.call(data.relationshipTypes, connection.productRelationType) &&
-          connection.sourceWordId === word.id &&
-          wordIds.has(connection.targetWordId)) {
-        relationshipIds.set(relationshipIdentityKey(connection), connection.verificationStatus);
-      }
-    }
-  }
-  for (const [key, status] of relationshipIds) {
-    counts[status] += 1;
-    const type = key.slice(key.lastIndexOf("\u0000") + 1);
-    if (type === "equivalent") counts.equivalents += 1;
-    else counts.semantic += 1;
-  }
-  counts.total = relationshipIds.size;
-  return counts;
-}
-
-function countDemoRelationships(data) {
-  const wordIds = new Set(data.words.map((word) => word.id));
-  const relationshipIds = new Set();
-  for (const word of data.words) {
-    for (const connection of word.connections) {
-      if (connection.verificationStatus !== "demo" ||
-          connection.sourceWordId !== word.id ||
-          !connection.productRelationType ||
-          !Object.prototype.hasOwnProperty.call(data.relationshipTypes, connection.productRelationType) ||
-          !wordIds.has(connection.targetWordId)) continue;
-      relationshipIds.add(relationshipIdentityKey(connection));
-    }
-  }
-  return relationshipIds.size;
 }
 
 async function addDemoRelationships(data) {
@@ -476,33 +433,6 @@ function render() {
     graphMessage.textContent = translate(state.language, "graph.noFiltered");
   }
 
-  const connectionCount = matchingConnections.length;
-  resultCount.textContent = displayableConnections.length === 0
-    ? translate(state.language,
-      state.developmentGraph ? "search.noDevelopmentRelationships" : "search.noVerified")
-    : connectionCount === 0
-      ? translate(state.language, "search.noFiltered")
-      : translate(state.language, connectionCount === 1 ? "search.focusRelationsOne" : "search.focusRelations", {
-          count: connectionCount
-        });
-  const datasetRelationshipCounts = countDisplayableRelationships(state.data);
-  const formattedWordCount = new Intl.NumberFormat(state.language).format(state.data.words.length);
-  const formatCount = (count) => new Intl.NumberFormat(state.language).format(count);
-  datasetStats.textContent = translate(state.language, "search.datasetStats", {
-    words: formattedWordCount,
-    relations: formatCount(datasetRelationshipCounts.total),
-    verified: formatCount(datasetRelationshipCounts.verified),
-    equivalents: formatCount(datasetRelationshipCounts.equivalents),
-    semantic: formatCount(datasetRelationshipCounts.semantic)
-  });
-  if (state.developmentGraph) {
-    const formattedDemoCount = new Intl.NumberFormat(state.language)
-      .format(countDemoRelationships(state.data));
-    datasetStats.textContent += ` · ${translate(state.language, "search.demoStats", {
-      count: formattedDemoCount
-    })}`;
-  }
-
   const relation = state.selectedRelation
     ? {
         ...state.selectedRelation,
@@ -820,8 +750,6 @@ async function initialize() {
     console.error("Unable to load the word graph:", error);
     graphMessage.hidden = false;
     graphMessage.textContent = translate(state.language, "load.failed");
-    resultCount.textContent = translate(state.language, "search.datasetUnavailable");
-    datasetStats.textContent = translate(state.language, "search.datasetUnavailable");
     renderEmptyDetails(detailsPanel, state.language);
   }
 }
